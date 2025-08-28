@@ -25,15 +25,16 @@
             "id": "52c643d1f9f8fbeb",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "image",
               "state": {
-                "file": "sem 3/DS/Drawing 2025-08-28 21.59.41.excalidraw.md"
+                "file": "sem 3/OS/PYQs/IMG-20250828-WA0027.jpg"
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-08-28 21.59.41.excalidraw"
+              "icon": "lucide-image",
+              "title": "IMG-20250828-WA0027"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem 3/DS/Syllabus.md",
+                "file": "sem 3/OS/PYQs/IMG-20250828-WA0027.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Syllabus"
+              "title": "Backlinks for IMG-20250828-WA0027"
             }
           },
           {
@@ -202,11 +203,23 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "dc107ae6ea67c5c0",
+  "active": "52c643d1f9f8fbeb",
   "lastOpenFiles": [
-    "sem 3/DS/CPP.md",
+    "sem 3/OS/PYQs/IMG-20250828-WA0026.jpg",
+    "sem 3/OS/PYQs/IMG-20250828-WA0025.jpg",
+    "sem 3/OS/PYQs/IMG-20250828-WA0027.jpg",
     "sem 3/DS/Drawing 2025-08-28 21.59.41.excalidraw.md",
+    "sem 3/OS/PYQs/IMG-20250828-WA0029.jpg",
+    "sem 3/OS/PYQs/IMG-20250828-WA0032.jpg",
+    "sem 3/OS/PYQs/IMG-20250828-WA0031.jpg",
+    "sem 3/OS/PYQs/IMG-20250828-WA0033.jpg",
+    "sem 3/OS/PYQs/IMG-20250828-WA0034.jpg",
+    "sem 3/OS/PYQs/IMG-20250828-WA0030.jpg",
+    "sem 3/OS/PYQs/IMG-20250828-WA0028.jpg",
+    "sem 3/OS/PYQs",
+    "sem 3/OS/New folder",
     "sem 3/DS/Syllabus.md",
+    "sem 3/DS/CPP.md",
     "sem 3/OS/01 Introduction/Notes.md",
     "sem 3/OS/01 Introduction/Solutions.md",
     "Welcome.md",
