@@ -11,10 +11,26 @@
             "id": "dc107ae6ea67c5c0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "sem 3/DS/Syllabus.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Syllabus"
+            }
+          },
+          {
+            "id": "52c643d1f9f8fbeb",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "sem 3/DS/Drawing 2025-08-28 21.59.41.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-08-28 21.59.41.excalidraw"
             }
           }
         ]
@@ -90,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem 3/DS/Syllabus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +116,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Syllabus"
             }
           },
           {
@@ -185,15 +202,17 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "64103eff9ce78a98",
+  "active": "dc107ae6ea67c5c0",
   "lastOpenFiles": [
-    "Welcome.md",
-    "sem 3/OS/01 Introduction/Solutions.md",
+    "sem 3/DS/CPP.md",
+    "sem 3/DS/Drawing 2025-08-28 21.59.41.excalidraw.md",
+    "sem 3/DS/Syllabus.md",
     "sem 3/OS/01 Introduction/Notes.md",
+    "sem 3/OS/01 Introduction/Solutions.md",
+    "Welcome.md",
     "sem 3/OS/01 Introduction/Exercises.md",
     "sem 3/OS/01 Introduction",
     "sem 3/OS",
-    "sem 3/DS/Untitled.md",
     "sem 3/DS",
     "sem 3"
   ]

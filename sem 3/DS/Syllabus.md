@@ -1,0 +1,29 @@
+- Array
+	- operations
+		- append
+		- delete
+		- search
+		- insert
+		- reverse
+	- Sorting
+		- Bubble
+		- Insertion
+		- Selection
+	- 2d arrays
+	- dynamic allocation of arrays
+- Linked List
+	- Singly Linked List
+		- Methods/Ops
+			- Add
+				- start
+				- end
+				- ith
+			- Delete
+				- start
+				- end
+				- ith
+			- Search
+			- Traversal
+			- Reverse
+			- Concat
+			- Merge
