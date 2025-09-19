@@ -11,17 +11,40 @@
             "id": "71b42ca880928d87",
             "type": "leaf",
             "state": {
+              "type": "kanban",
+              "state": {
+                "file": "sem 3/Class Test Series 1.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Class Test Series 1"
+            }
+          },
+          {
+            "id": "e1eee29df8c06c11",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "sem 3/DS/Syllabus.md",
+                "file": "sem 3/DSE/1 Introduction to Data Mining.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Syllabus"
+              "title": "1 Introduction to Data Mining"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 219.5
   },
   "right": {
     "id": "3a368affbd4d7add",
@@ -141,12 +164,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "sem 3/DSE/1 Introduction to Data Mining.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 1 Introduction to Data Mining"
             }
           },
           {
@@ -187,11 +211,22 @@
       "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "71b42ca880928d87",
+  "active": "eccd19718d7b195f",
   "lastOpenFiles": [
+    "sem 3/Class Test Series 1.md",
+    "sem 3/DSE/1 Introduction to Data Mining.md",
+    "sem 3/DS/Syllabus.md",
+    "sem 3/OS/syllabus.pdf",
+    "2 Data aggregation.md",
+    "sem 3/DSE/Syllabus.md",
+    "2025-09-23 DSE Class Test.md",
+    "2025-09-24 Hindi Class Test.md",
+    "Untitled.base",
+    "sem 3/README.md",
     "sem 3/DS/Data_structures_and_algorithms_in_c_2nd.pdf",
     "sem 3/DS/DS BSc Hons Guidelines[1].pdf",
     "sem 3/DS/msoCE0A.tmp",
@@ -199,15 +234,9 @@
     "sem 3/AI/Prolog-programming-IVAN BRATKO.pdf",
     "sem 3/AI/Guidelines_AI.pdf",
     "sem 3/AI/Introduction_to_Artificial_Intelligence_and_Expert_Systems_by_Dan.pdf",
-    "sem 3/OS/syllabus.pdf",
     "sem 3/DSE/Guidelines-Datamining-Semester-III-V-DSE July 2025.pdf",
-    "sem 3/DSE/Pang-Ning_Tan_Michael_Steinbach_Vipin_Kumar_-_Introduction_to_Data_Mining-Pe_NRDK4fi.pdf",
-    "sem 3/OS/Abraham Silberschatz-Operating System Concepts (9th,2012_12).pdf",
     "sem 3/DS/Untitled.md",
-    "sem 3/DS/Syllabus.md",
-    "sem 3/DSE/Syllabus.md",
     "sem 3/OS/Syllabus.md",
-    "sem 3/README.md",
     "sem 3/DS/Drawing 2025-08-28 21.59.41.excalidraw.md",
     "sem 3/DS/CPP.md",
     "sem 3/AI/Syllabus.md",
