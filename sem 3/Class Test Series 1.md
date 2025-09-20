@@ -6,7 +6,6 @@ kanban-plugin: board
 
 ## DSE
 
-- [ ] [[1 Introduction to Data Mining]]
 - [ ] 2 Data aggregation
 - [ ] 2 Sampling
 - [ ] 2 dimensionality reduction
@@ -48,6 +47,7 @@ kanban-plugin: board
 ## Done
 
 **Complete**
+- [x] [[1 Introduction to Data Mining]]
 
 
 
