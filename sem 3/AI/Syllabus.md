@@ -1,5 +1,9 @@
 
 [Youtube Reference for Theory](https://www.youtube.com/watch?v=saNiKk06f1Y&list=PLPIwNooIb9vgB1DQEftkKA3qOdeC4vonA)
+Chapter 1: Video 1
+Chapter 2: Video 3-9
+Chapter 3: Video 7 (example problems from book russell)
+
 [Youtube Reference for Prolog](https://www.youtube.com/playlist?list=PLEJXowNB4kPy3_qhGksOO8ch_Di7T8_9E)
 ## I. Russell and Norvig: Artificial Intelligence – A Modern Approach
 
@@ -47,16 +51,6 @@ This structure covers the selected topics from Chapters 1, 2, 3, 5, and 6.
     - Grid worlds (including the vacuum world example)
     - Robot navigation
     - Automatic assembly sequencing (and Protein design)
-
-### Chapter 5: Constraint Satisfaction Problems (Section 5.1)
-
-- **5.1 Defining Constraint Satisfaction Problems**
-
-### Chapter 6: Adversarial Search and Games (Sections 6.1, 6.2)
-
-- **6.1 Game Theory**
-- **6.2 Optimal Decisions in Games**
-
 ---
 
 ## II. Patterson: Introduction to AI and Expert Systems – PHI
@@ -75,14 +69,3 @@ This structure covers the complete content of Chapters 4 and 7.
 - **4.8 Nondeductive Inference Methods**
 - **4.9 Representations Using Rules**
 - **4.10 Summary**
-
-### Chapter 7: Structured Knowledge: Graphs, Frames, and Related Structures (Complete)
-
-- **7.1 Introduction**
-- **7.2 Associative Networks**
-    - (Includes discussion of Associative Networks/Semantic Networks, and links like ISA, MEMBER-OF, SUBSET-OF, AKO, etc.)
-- **7.3 Frame Structures**
-    - (Discusses frames as a generalized structure for grouping and linking knowledge chunks)
-- **7.4 Conceptual Dependencies and Scripts**
-    - (Discusses Scripts as a structured representation for sequences of commonly occurring events, originally for language understanding)
-- **7.5 Summary**
