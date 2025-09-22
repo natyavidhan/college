@@ -1,10 +1,9 @@
 
-[Youtube Reference for Theory](https://www.youtube.com/watch?v=saNiKk06f1Y&list=PLPIwNooIb9vgB1DQEftkKA3qOdeC4vonA)
-Chapter 1: Video 1
-Chapter 2: Video 3-9
-Chapter 3: Video 7 (example problems from book russell)
-
-[Youtube Reference for Prolog](https://www.youtube.com/playlist?list=PLEJXowNB4kPy3_qhGksOO8ch_Di7T8_9E)
+- [Youtube Reference for Theory](https://www.youtube.com/watch?v=saNiKk06f1Y&list=PLPIwNooIb9vgB1DQEftkKA3qOdeC4vonA)
+	- Chapter 1: Video 1
+	- Chapter 2: Video 3-9
+	- Chapter 3: Video 7 (example problems from book russell)
+- [Youtube Reference for Prolog](https://www.youtube.com/playlist?list=PLEJXowNB4kPy3_qhGksOO8ch_Di7T8_9E)
 ## I. Russell and Norvig: Artificial Intelligence – A Modern Approach
 
 This structure covers the selected topics from Chapters 1, 2, 3, 5, and 6.
