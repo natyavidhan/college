@@ -8,7 +8,47 @@
         "type": "tabs",
         "children": [
           {
+            "id": "312dae04004a1d47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sem 3/AI/1. Introduction.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Introduction"
+            }
+          },
+          {
+            "id": "6f9dafd0f78af6e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sem 3/AI/Syllabus.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Syllabus"
+            }
+          },
+          {
             "id": "71b42ca880928d87",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem 3/AI/Russell and Norvig.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Russell and Norvig"
+            }
+          },
+          {
+            "id": "dabd4b7d5de8a80b",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -28,61 +68,9 @@
               "icon": "lucide-trello",
               "title": "Class Test Series 1"
             }
-          },
-          {
-            "id": "e1eee29df8c06c11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem 3/DSE/1 Introduction to Data Mining.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1 Introduction to Data Mining"
-            }
-          },
-          {
-            "id": "6db27c349886c7c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem 3/DSE/2 Data Preprocessing.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2 Data Preprocessing"
-            }
-          },
-          {
-            "id": "f89f0bd637751f29",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem 3/DSE/Guidelines-Datamining-Semester-III-V-DSE July 2025.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Guidelines-Datamining-Semester-III-V-DSE July 2025"
-            }
-          },
-          {
-            "id": "a6a1e89e0eb46543",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem 3/DSE/Pang-Ning_Tan_Michael_Steinbach_Vipin_Kumar_-_Introduction_to_Data_Mining-Pe_NRDK4fi.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Pang-Ning_Tan_Michael_Steinbach_Vipin_Kumar_-_Introduction_to_Data_Mining-Pe_NRDK4fi"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -252,23 +240,24 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a6a1e89e0eb46543",
+  "active": "6f9dafd0f78af6e1",
   "lastOpenFiles": [
-    "sem 3/DSE/Guidelines-Datamining-Semester-III-V-DSE July 2025.pdf",
+    "sem 3/AI/1. Introduction.md",
+    "sem 3/Class Test Series 1.md",
+    "sem 3/AI/Russell and Norvig.pdf",
+    "Drawing 2025-09-20 04.06.31.excalidraw.md",
+    "sem 3/AI/Syllabus.md",
+    "sem 3/AI/Guidelines_AI.pdf",
+    "sem 3/AI/Introduction_to_Artificial_Intelligence_and_Expert_Systems_by_Dan.pdf",
+    "sem 3/DSE/1 Introduction to Data Mining.md",
     "sem 3/DSE/Pang-Ning_Tan_Michael_Steinbach_Vipin_Kumar_-_Introduction_to_Data_Mining-Pe_NRDK4fi.pdf",
+    "sem 3/DSE/Guidelines-Datamining-Semester-III-V-DSE July 2025.pdf",
     "sem 3/DSE/2 Data Preprocessing.md",
     "sem 3/DS/practicals/mso964F.tmp",
     "sem 3/DS/practicals/mso9321.tmp",
     "sem 3/DS/practicals/~WRL2919.tmp",
     "sem 3/DS/practicals/~WRD2876.tmp",
     "sem 3/DS/practicals/prog sheet 1.pdf",
-    "sem 3/DS/practicals/mso1A7B.tmp",
-    "sem 3/DS/practicals/mso1559.tmp",
-    "sem 3/DS/practicals/~$og sheet 1.docx",
-    "sem 3/DS/practicals/~WRL3667.tmp",
-    "sem 3/DSE/1 Introduction to Data Mining.md",
-    "sem 3/Class Test Series 1.md",
-    "Drawing 2025-09-20 04.06.31.excalidraw.md",
     "sem 3/DSE/resources/IMG-20250917-WA0108.jpg",
     "sem 3/DSE/resources/IMG-20250917-WA0109.jpg",
     "sem 3/DSE/resources/IMG-20250917-WA0106.jpg",
@@ -283,7 +272,6 @@
     "sem 3/OS/Syllabus.md",
     "sem 3/DS/Drawing 2025-08-28 21.59.41.excalidraw.md",
     "sem 3/DS/CPP.md",
-    "sem 3/AI/Syllabus.md",
     "sem 3/OS/PYQs/IMG-20250828-WA0027.jpg",
     "sem 3/OS/PYQs/IMG-20250828-WA0026.jpg",
     "sem 3/OS/PYQs/IMG-20250828-WA0025.jpg",
