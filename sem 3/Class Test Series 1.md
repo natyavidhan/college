@@ -6,12 +6,6 @@ kanban-plugin: board
 
 ## DSE
 
-- [ ] 2 Data aggregation
-- [ ] 2 Sampling
-- [ ] 2 dimensionality reduction
-- [ ] 2 feature subset selection
-- [ ] 2 feature creation
-- [ ] 2 variable transformation
 - [ ] 3 Concepts of clustering
 - [ ] 3 Measure of similarity
 - [ ] 3 Cluster types and methods
@@ -48,6 +42,12 @@ kanban-plugin: board
 
 **Complete**
 - [x] [[1 Introduction to Data Mining]]
+- [x] 2 Data aggregation
+- [x] 2 Sampling
+- [x] 2 dimensionality reduction
+- [x] 2 feature subset selection
+- [x] 2 feature creation
+- [x] 2 variable transformation
 
 
 
