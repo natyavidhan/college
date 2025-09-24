@@ -26,7 +26,7 @@ queen_img = pygame.transform.scale(
 
 board = [[0 for _ in range(BOARD_SIZE)] for _ in range(BOARD_SIZE)]
 
-delay = 0.001
+delay = 0.0001
 paused = False
 completed = False
 solutions_count = 0

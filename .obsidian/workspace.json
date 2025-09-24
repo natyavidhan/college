@@ -63,8 +63,8 @@
                   ]
                 }
               },
-              "icon": "lucide-trello",
-              "title": "Class Test Series 1"
+              "icon": "lucide-ghost",
+              "title": "kanban"
             }
           }
         ]
@@ -202,8 +202,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {

@@ -1,13 +1,4 @@
-board = [
-    [0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0],
-]
+board = [[0 for _ in range(8)] for _ in range(8)]
 
 def print_board(board):
     for row in board:
@@ -16,21 +7,15 @@ def print_board(board):
     
     
 def is_safe(board, row, col):
-    # Check this row on left side
     for i in range(col):
         if board[row][i] == 1:
             return False
-
-    # Check upper diagonal on left side
     for i, j in zip(range(row, -1, -1), range(col, -1, -1)):
         if board[i][j] == 1:
             return False
-
-    # Check lower diagonal on left side
     for i, j in zip(range(row, len(board)), range(col, -1, -1)):
         if board[i][j] == 1:
             return False
-
     return True
 
 def solve_n_queens(board, col, count=None):
@@ -40,16 +25,13 @@ def solve_n_queens(board, col, count=None):
     if col >= len(board):
         print_board(board)
         count["solutions"] += 1
-        return count["solutions"]  # Return the count, not True/False
+        return count["solutions"]
 
     for i in range(len(board)):
         if is_safe(board, i, col):
-            board[i][col] = 1  # Place queen
-
-            # Recur to place the rest of the queens
+            board[i][col] = 1
             solve_n_queens(board, col + 1, count)
-
-            board[i][col] = 0  # Backtrack
+            board[i][col] = 0
 
     return count["solutions"]
 
