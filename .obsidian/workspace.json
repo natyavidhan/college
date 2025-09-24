@@ -11,14 +11,12 @@
             "id": "312dae04004a1d47",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "sem 3/AI/1. Introduction.md",
-                "mode": "preview",
-                "source": false
+                "file": "sem 3/AI/Guidelines_AI.pdf"
               },
-              "icon": "lucide-file",
-              "title": "1. Introduction"
+              "icon": "lucide-file-text",
+              "title": "Guidelines_AI"
             }
           },
           {
@@ -28,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "sem 3/AI/Syllabus.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -69,8 +67,7 @@
               "title": "Class Test Series 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,24 +237,27 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "6f9dafd0f78af6e1",
+  "active": "7445f84ab9c57cbd",
   "lastOpenFiles": [
-    "sem 3/AI/1. Introduction.md",
-    "sem 3/Class Test Series 1.md",
-    "sem 3/AI/Russell and Norvig.pdf",
-    "Drawing 2025-09-20 04.06.31.excalidraw.md",
+    "sem 3/DS/practicals/queen.png",
+    "sem 3/DS/practicals/queen.png.0.pdnSave",
+    "sem 3/DS/practicals/queen.webp",
+    "sem 3/DS/practicals/LightQueen.webp",
+    "sem 3/DS/practicals/8_queens_gui.py",
+    "sem 3/DS/practicals/8_queens.py",
+    "sem 3/DSE/e book for students dokumen.pub_introduction-to-data-mining-2nd.pdf",
     "sem 3/AI/Syllabus.md",
-    "sem 3/AI/Guidelines_AI.pdf",
-    "sem 3/AI/Introduction_to_Artificial_Intelligence_and_Expert_Systems_by_Dan.pdf",
+    "sem 3/AI/1. Introduction.md",
+    "Drawing 2025-09-20 04.06.31.excalidraw.md",
+    "sem 3/OS/practicals/linux-comms.pdf",
+    "sem 3/OS/practicals/msoE046.tmp",
+    "sem 3/OS/practicals/msoDCEA.tmp",
+    "sem 3/OS/practicals/~WRL2806.tmp",
+    "sem 3/OS/practicals/~WRD2787.tmp",
+    "sem 3/OS/practicals/~$nux-comms.docx",
+    "sem 3/Class Test Series 1.md",
     "sem 3/DSE/1 Introduction to Data Mining.md",
-    "sem 3/DSE/Pang-Ning_Tan_Michael_Steinbach_Vipin_Kumar_-_Introduction_to_Data_Mining-Pe_NRDK4fi.pdf",
-    "sem 3/DSE/Guidelines-Datamining-Semester-III-V-DSE July 2025.pdf",
     "sem 3/DSE/2 Data Preprocessing.md",
-    "sem 3/DS/practicals/mso964F.tmp",
-    "sem 3/DS/practicals/mso9321.tmp",
-    "sem 3/DS/practicals/~WRL2919.tmp",
-    "sem 3/DS/practicals/~WRD2876.tmp",
-    "sem 3/DS/practicals/prog sheet 1.pdf",
     "sem 3/DSE/resources/IMG-20250917-WA0108.jpg",
     "sem 3/DSE/resources/IMG-20250917-WA0109.jpg",
     "sem 3/DSE/resources/IMG-20250917-WA0106.jpg",
@@ -276,8 +276,6 @@
     "sem 3/OS/PYQs/IMG-20250828-WA0026.jpg",
     "sem 3/OS/PYQs/IMG-20250828-WA0025.jpg",
     "sem 3/OS/PYQs/IMG-20250828-WA0029.jpg",
-    "sem 3/OS/PYQs/IMG-20250828-WA0032.jpg",
-    "sem 3/OS/PYQs/IMG-20250828-WA0031.jpg",
     "sem 3/OS/01 Introduction/Notes.md",
     "sem 3/OS/01 Introduction/Solutions.md",
     "Welcome.md",
