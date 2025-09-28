@@ -20,20 +20,6 @@
             }
           },
           {
-            "id": "6f9dafd0f78af6e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem 3/AI/4. Formalized Symbolic Logics.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4. Formalized Symbolic Logics"
-            }
-          },
-          {
             "id": "71b42ca880928d87",
             "type": "leaf",
             "state": {
@@ -43,6 +29,46 @@
               },
               "icon": "lucide-file-text",
               "title": "Russell and Norvig"
+            }
+          },
+          {
+            "id": "cf82fda13b5b7dd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sem 3/AI/1. Introduction.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Introduction"
+            }
+          },
+          {
+            "id": "bc848c522dfde453",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sem 3/OS/Syllabus.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Syllabus"
+            }
+          },
+          {
+            "id": "00f936f2bb2c34d1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem 3/OS/Abraham Silberschatz-Operating System Concepts (9th,2012_12).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Abraham Silberschatz-Operating System Concepts (9th,2012_12)"
             }
           },
           {
@@ -63,12 +89,12 @@
                   ]
                 }
               },
-              "icon": "lucide-ghost",
-              "title": "kanban"
+              "icon": "lucide-trello",
+              "title": "Class Test Series 1"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -203,8 +229,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -238,27 +264,28 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "6f9dafd0f78af6e1",
+  "active": "bc848c522dfde453",
   "lastOpenFiles": [
+    "sem 3/OS/syllabus.pdf",
+    "sem 3/Class Test Series 1.md",
+    "sem 3/AI/1. Introduction.md",
+    "sem 3/OS/Syllabus.md",
     "sem 3/AI/Syllabus.md",
+    "sem 3/OS/Abraham Silberschatz-Operating System Concepts (9th,2012_12).pdf",
     "sem 3/AI/4. Formalized Symbolic Logics.md",
+    "test.py",
+    "sem 3/AI/Practicals/p1.pl",
+    "sem 3/AI/Practicals",
+    "sem 3/AI/New folder",
+    "sem 3/AI/Introduction_to_Artificial_Intelligence_and_Expert_Systems_by_Dan.pdf",
+    "Drawing 2025-09-20 04.06.31.excalidraw.md",
+    "sem 3/AI/Russell and Norvig.pdf",
     "sem 3/DSE/dm test 1 ch1, 2.pdf",
     "sem 3/DSE/Syllabus.md",
-    "sem 3/AI/Introduction_to_Artificial_Intelligence_and_Expert_Systems_by_Dan.pdf",
     "sem 3/AI/Guidelines_AI.pdf",
     "sem 3/DS/practicals/queen.png",
-    "sem 3/DS/practicals/queen.png.0.pdnSave",
     "sem 3/DS/practicals/queen.webp",
     "sem 3/DS/practicals/LightQueen.webp",
-    "sem 3/DS/practicals/8_queens_gui.py",
-    "sem 3/DS/practicals/8_queens.py",
-    "sem 3/DSE/e book for students dokumen.pub_introduction-to-data-mining-2nd.pdf",
-    "sem 3/AI/1. Introduction.md",
-    "Drawing 2025-09-20 04.06.31.excalidraw.md",
-    "sem 3/OS/practicals/linux-comms.pdf",
-    "sem 3/OS/practicals/msoE046.tmp",
-    "sem 3/OS/practicals/msoDCEA.tmp",
-    "sem 3/Class Test Series 1.md",
     "sem 3/DSE/1 Introduction to Data Mining.md",
     "sem 3/DSE/2 Data Preprocessing.md",
     "sem 3/DSE/resources/IMG-20250917-WA0108.jpg",
@@ -271,7 +298,6 @@
     "2025-09-24 Hindi Class Test.md",
     "sem 3/README.md",
     "sem 3/DS/Untitled.md",
-    "sem 3/OS/Syllabus.md",
     "sem 3/DS/Drawing 2025-08-28 21.59.41.excalidraw.md",
     "sem 3/DS/CPP.md",
     "sem 3/OS/PYQs/IMG-20250828-WA0027.jpg",
