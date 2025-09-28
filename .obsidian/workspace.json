@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sem 3/OS/Exercises.md",
+                "file": "sem 3/OS/Solutions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exercises"
+              "title": "Solutions"
             }
           },
           {
@@ -266,8 +266,9 @@
   },
   "active": "bc848c522dfde453",
   "lastOpenFiles": [
-    "sem 3/OS/Syllabus.md",
     "sem 3/OS/Exercises.md",
+    "sem 3/OS/Solutions.md",
+    "sem 3/OS/Syllabus.md",
     "sem 3/OS/syllabus.pdf",
     "sem 3/Class Test Series 1.md",
     "sem 3/AI/1. Introduction.md",
