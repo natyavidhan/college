@@ -111,6 +111,13 @@ There are three common models establishing the relationship between user and ker
 3. **Many-to-Many Model:** Multiplexes many user-level threads to a smaller or equal number of kernel threads. Developers can create as many user threads as needed, and the kernel threads can run in parallel. A blocking system call by one thread does not block the entire process.
     - A variation is the **Two-Level Model**, which allows binding a user-level thread to a kernel thread while retaining the multiplexing capabilities.
 
+| Model        | Mapping                         | Parallelism | Blocking Effect       | Pros                                 | Cons                                  |
+| ------------ | ------------------------------- | ----------- | --------------------- | ------------------------------------ | ------------------------------------- |
+| Many-to-One  | Many user → 1 kernel            | ❌ No        | Entire process blocks | Fast to manage                       | No parallelism, one block affects all |
+| One-to-One   | 1 user → 1 kernel               | ✅ Yes       | Independent           | True parallelism, better concurrency | High overhead, limited threads        |
+| Many-to-Many | Many user → Many kernel         | ✅ Yes       | Independent           | Flexible, scalable                   | Complex implementation                |
+| Two-Level    | Many-to-Many + optional binding | ✅ Yes       | Independent           | Mix of flexibility and control       | More complex                          |
+
 #### 4.4 Thread Libraries
 
 A thread library provides programmers with an **API for creating and managing threads**. Thread libraries can be implemented in two ways:

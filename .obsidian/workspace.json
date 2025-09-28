@@ -6,31 +6,8 @@
       {
         "id": "14a5e5118472d45f",
         "type": "tabs",
+        "dimension": 42.80383795309169,
         "children": [
-          {
-            "id": "312dae04004a1d47",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem 3/DSE/dm test 1 ch1, 2.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "dm test 1 ch1, 2"
-            }
-          },
-          {
-            "id": "71b42ca880928d87",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem 3/AI/Russell and Norvig.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Russell and Norvig"
-            }
-          },
           {
             "id": "cf82fda13b5b7dd2",
             "type": "leaf",
@@ -51,24 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sem 3/OS/Solutions.md",
-                "mode": "source",
+                "file": "sem 3/OS/Syllabus.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Solutions"
-            }
-          },
-          {
-            "id": "00f936f2bb2c34d1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem 3/OS/Abraham Silberschatz-Operating System Concepts (9th,2012_12).pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Abraham Silberschatz-Operating System Concepts (9th,2012_12)"
+              "title": "Syllabus"
             }
           },
           {
@@ -94,7 +59,26 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
+      },
+      {
+        "id": "338d35bf3371921a",
+        "type": "tabs",
+        "dimension": 57.19616204690831,
+        "children": [
+          {
+            "id": "738c6f0c57bcdb6a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem 3/OS/Abraham Silberschatz-Operating System Concepts (9th,2012_12).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Abraham Silberschatz-Operating System Concepts (9th,2012_12)"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -151,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "3a368affbd4d7add",
@@ -266,23 +251,23 @@
   },
   "active": "bc848c522dfde453",
   "lastOpenFiles": [
-    "sem 3/OS/Exercises.md",
-    "sem 3/OS/Solutions.md",
+    "sem 3/OS/Abraham Silberschatz-Operating System Concepts (9th,2012_12).pdf",
     "sem 3/OS/Syllabus.md",
-    "sem 3/OS/syllabus.pdf",
     "sem 3/Class Test Series 1.md",
     "sem 3/AI/1. Introduction.md",
+    "sem 3/DSE/dm test 1 ch1, 2.pdf",
+    "sem 3/OS/syllabus.pdf",
+    "sem 3/AI/Russell and Norvig.pdf",
+    "Drawing 2025-09-20 04.06.31.excalidraw.md",
+    "sem 3/OS/Exercises.md",
+    "sem 3/OS/Solutions.md",
     "sem 3/AI/Syllabus.md",
-    "sem 3/OS/Abraham Silberschatz-Operating System Concepts (9th,2012_12).pdf",
     "sem 3/AI/4. Formalized Symbolic Logics.md",
     "test.py",
     "sem 3/AI/Practicals/p1.pl",
     "sem 3/AI/Practicals",
     "sem 3/AI/New folder",
     "sem 3/AI/Introduction_to_Artificial_Intelligence_and_Expert_Systems_by_Dan.pdf",
-    "Drawing 2025-09-20 04.06.31.excalidraw.md",
-    "sem 3/AI/Russell and Norvig.pdf",
-    "sem 3/DSE/dm test 1 ch1, 2.pdf",
     "sem 3/DSE/Syllabus.md",
     "sem 3/AI/Guidelines_AI.pdf",
     "sem 3/DS/practicals/queen.png",
