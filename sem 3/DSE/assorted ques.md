@@ -1,0 +1,56 @@
+Based on the syllabus excerpts and the provided question papers, here is the list of questions related to Unit 1, Unit 2, and the specified topics from Unit 5.
+
+---
+
+## Unit 1: Introduction to Data Mining
+
+(Motivation and Challenges for data mining, Types of data mining tasks, Applications of data mining, Data measurements, Data quality, Supervised vs. unsupervised techniques)
+
+| Question (Summary/Text)                                                                                                                                                                     | Syllabus Topic                                                      | Paper Number                                | Question Number  |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------ | :------------------------------------------ | :--------------- |
+| **Identify the type of each attribute and give justification.**                                                                                                                             | Data measurements                                                   | Unique Paper Code: 32347611 (Paper A)       | Q1, first bullet |
+| **Identify the data quality issues for each of the following fields. Can these issues be resolved? If yes, how?** (Referencing Blood Pressure date, miscalibrated meter, and missing Age)   | Data quality                                                        | Unique Paper Code: 32347611 (Paper A)       | Q1, third bullet |
+| **Differentiate between the unsupervised and supervised evaluation measures used for cluster validity.**                                                                                    | Supervised vs. unsupervised techniques                              | Sr. No. of Question Paper: 4192 (Paper B)   | Q1(a)            |
+| **Classify the following tasks as "predictive" or "descriptive". Justify your answer.** (Includes foretelling user shopping, grouping customers, finding gene groups, and projecting sales) | Types of data mining tasks / Supervised vs. unsupervised techniques | Sr. No. of Question Paper: 4192 (Paper B)   | Q1(g)            |
+| **A data mining application uses a particular type of data. Give one application for each of the following type: (i) Sparse dataset (ii) Spatio-Temporal data (iii) Graph-based data.**     | Applications of data mining                                         | Sr. No. of Question Paper: 4192 (Paper B)   | Q2(b)            |
+| **Identify the type of attributes ID, Dept. Name, Location, Established On, Size, and Annual Budget as nominal, ordinal, interval, or ratio. Give justification for each.**                 | Data measurements                                                   | Sr. No. of Question Paper: 4192 (Paper B)   | Q3(a)(i)         |
+| **Define the terms scalability and heterogeneity? What challenges do they pose while mining the data?**                                                                                     | Motivation and Challenges for data mining                           | Sr. No. of Question Paper: 1174 A (Paper C) | Q1(d)            |
+| **For the given employee table, identify the type of each attribute (nominal, ordinal, interval- scaled, ratio-scaled). giving justification for your choice.**                             | Data measurements                                                   | Sr. No. of Question Paper: 1174 A (Paper C) | Q3, first part   |
+
+---
+
+## Unit 2: Data Pre-processing
+
+(Data aggregation, sampling, dimensionality reduction, feature subset selection, feature creation, variable transformation: Binarization and Discretization)
+
+| Question (Summary/Text)                                                                                                                                                                                     | Syllabus Topic                                                                         | Paper Number                                | Question Number   |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------- | :------------------------------------------ | :---------------- |
+| **Perform min-max normalisation on “Blood Pressure” attribute.**                                                                                                                                            | Variable transformation                                                                | Unique Paper Code: 32347611 (Paper A)       | Q1, second bullet |
+| **Do you see any issue with applying K-means to the given dataset? If yes, then state the issue. Also apply the appropriate preprocessing technique to overcome it.**                                       | Pre-processing/Variable transformation (Context implies normalization/standardization) | Sr. No. of Question Paper: 4192 (Paper B)   | Q1(d)             |
+| **Define the curse of dimensionality. The Iris flower dataset comprises of 150 data points and four features... Is it a high-dimensional data or low-dimensional data? Justify your answer.**               | Dimensionality reduction                                                               | Sr. No. of Question Paper: 4192 (Paper B)   | Q1(e)             |
+| **Suggest a technique for dealing with missing values in the attribute Location. Will the same technique apply to the attribute Annual Budget? Justify.**                                                   | Data quality/Pre-processing                                                            | Sr. No. of Question Paper: 4192 (Paper B)   | Q3(a)(ii)         |
+| **What is an outlier? Spot an outlier in the provided dataset.**                                                                                                                                            | Data quality/Pre-processing                                                            | Sr. No. of Question Paper: 4192 (Paper B)   | Q3(a)(iii)        |
+| **What is the need for sampling in data mining ? What problems arise if the sample size is too small or too large?**                                                                                        | Sampling                                                                               | Sr. No. of Question Paper: 4192 (Paper B)   | Q3(b)             |
+| **Convert this attribute to asymmetric binary attributes.** (Refers to categorical attribute Grade)                                                                                                         | Variable transformation / Binarization                                                 | Sr. No. of Question Paper: 4192 (Paper B)   | Q5(b)             |
+| **Briefly describe the aggregation technique in data-preprocessing?**                                                                                                                                       | Data aggregation                                                                       | Sr. No. of Question Paper: 1174 A (Paper C) | Q1(b)             |
+| **What do you understand by the term missing data in data mining? Briefly describe two methods for dealing with missing data.**                                                                             | Data quality/Pre-processing                                                            | Sr. No. of Question Paper: 1174 A (Paper C) | Q1(c)             |
+| **Explain briefly the significance of dimensionality reduction.**                                                                                                                                           | Dimensionality reduction                                                               | Sr. No. of Question Paper: 1174 A (Paper C) | Q1(e)             |
+| **Explain discretization and binarization in context of data pre-processing.**                                                                                                                              | Variable transformation                                                                | Sr. No. of Question Paper: 1174 A (Paper C) | Q2(a)             |
+| **Consider a categorical attribute Customer satisfaction... (i) Convert the above categorical attribute to three binary attributes. (ii) Convert the same attribute to five asymmetric binary attributes.** | Variable transformation / Binarization                                                 | Sr. No. of Question Paper: 1174 A (Paper C) | Q2(b)             |
+| **Define the use of sampling in data mining? Name two sampling methods.**                                                                                                                                   | Sampling                                                                               | Sr. No. of Question Paper: 1174 A (Paper C) | Q2(g)             |
+| **For each attribute that has missing values, briefly state how Will you handle missing values therein.**                                                                                                   | Data quality/Pre-processing                                                            | Sr. No. of Question Paper: 1174 A (Paper C) | Q3, latter part   |
+
+---
+
+## Unit 5: Classification (Confusion Matrix and Evaluating Performance with Class Imbalance)
+
+(Specific syllabus topics: confusion matrix, evaluation metrics and model evaluation)
+
+|Question (Summary/Text)|Syllabus Topic|Paper Number|Question Number|
+|:--|:--|:--|:--|
+|**Create a confusion matrix for the above data set and compute False positive rate, accuracy, recall and precision.**|Confusion matrix, Evaluation metrics|Unique Paper Code: 32347611 (Paper A)|Q3, fourth bullet|
+|**List the confusion matrix for "Classifier A" and "Classifier B". Find the accuracy, precision, sensitivity, recall and specificity for each classifier.**|Confusion matrix, Evaluation metrics|Sr. No. of Question Paper: 4192 (Paper B)|Q5(a)(i)|
+|**What problem may occur if the provided training dataset of 500 patients had only 15 positive instances and the remaining negative instances? Which performance measure would you ch0ose to evaluate the classifiers in such a scenario? Which is the better classifier between Classifier A and Classifier B in such a scenario?**|Evaluating Performance with Class Imbalance|Sr. No. of Question Paper: 4192 (Paper B)|Q5(a)(ii)|
+|**HoW are accuracy rate and error calculated for evaluation of a classification model?**|Evaluation metrics|Sr. No. of Question Paper: 1174 A (Paper C)|Q1(a)|
+|**Define precision and recall metrics used for classification.**|Evaluation metrics|Sr. No. of Question Paper: 1174 A (Paper C)|Q1(f)|
+|**(a) Draw the confusion matrix for this problem (b) Compute the classifier accuracy, error and sensitivity.**|Confusion matrix, Evaluation metrics|Sr. No. of Question Paper: 1174 A (Paper C)|Q5 (parts a and b)|

@@ -17,8 +17,6 @@ kanban-plugin: board
 
 ## DS
 
-- [ ] Arrays
-- [ ] Singly Linked List
 - [ ] Doubly Linked List
 - [ ] Cyclic Linked List
 - [ ] Stacks
@@ -49,6 +47,8 @@ kanban-plugin: board
 - [x] 5.1, 5.2, 5.3-5.3.4
 - [x] 6.1, 6.2, 6.3
 - [x] 7.1, 7.2, 7.3
+- [x] Arrays
+- [x] Singly Linked List
 
 
 
