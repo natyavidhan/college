@@ -1,12 +1,12 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int main() {
-    int nums[9] = [1, 4, 6, 7, 8, 10, 11, 14, 20];
-    int n = 9;
+    vector<int> nums = {1, 4, 6, 7, 8, 10, 11, 14, 20};
     int target = 11;
     int start = 0;
-    int end = n - 1;
+    int end = nums.size() - 1;
 
     while (start <= end) {
         int mid = (start + end) / 2;

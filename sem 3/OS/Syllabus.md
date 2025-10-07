@@ -1,12 +1,3 @@
-
-| Mode | Meaning              | File must exist? | What happens if file exists?            |
-| ---- | -------------------- | ---------------- | --------------------------------------- |
-| `r`  | Read (text)          | ✅ Yes            | Just opens for reading                  |
-| `w`  | Write (text)         | ❌ No             | Overwrites the file completely          |
-| `a`  | Append (text)        | ❌ No             | Adds new content at the end             |
-| `r+` | Read & Write (text)  | ✅ Yes            | No truncation, read/write from start    |
-| `w+` | Read & Write (text)  | ❌ No             | Truncates file, then read/write         |
-| `a+` | Read & Append (text) | ❌ No             | Appends writes, allows reads            |
 ### Chapter 3: Processes
 
 #### 3.1 Process Concept

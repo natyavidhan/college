@@ -17,11 +17,12 @@ kanban-plugin: board
 
 ## DS
 
+- [ ] Arrays
+- [ ] Singly Linked List
 - [ ] Doubly Linked List
 - [ ] Cyclic Linked List
 - [ ] Stacks
 - [ ] Queues
-- [ ] Recursion
 
 
 ## AI
@@ -30,6 +31,8 @@ kanban-plugin: board
 
 ## OS
 
+- [ ] 6.1, 6.2, 6.3
+- [ ] 7.1, 7.2, 7.3
 
 
 ## Done
@@ -45,10 +48,6 @@ kanban-plugin: board
 - [x] 3.1, 3.2, 3.3
 - [x] 4.1, 4.2, 4.3, 4.4-4.4.1
 - [x] 5.1, 5.2, 5.3-5.3.4
-- [x] 6.1, 6.2, 6.3
-- [x] 7.1, 7.2, 7.3
-- [x] Arrays
-- [x] Singly Linked List
 
 
 

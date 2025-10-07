@@ -57,16 +57,16 @@ void search(int *arr, int n, int key) {
 }
 
 int* merge_arrays(int *arr1, int n1, int *arr2, int n2) {
-    return selection_sort(concatenate_arrays(arr1, n1, arr2, n2), n1 + n2);
-}
-
-int* concatenate_arrays(int *arr1, int n1, int *arr2, int n2) {
     int *merged = new int[n1 + n2];
     for(int i = 0; i < n1; i++)
         merged[i] = arr1[i];
     for(int i = 0; i < n2; i++)
         merged[n1 + i] = arr2[i];
     return merged;
+}
+
+int* concatenate_arrays(int *arr1, int n1, int *arr2, int n2) {
+    return merge_arrays(arr1, n1, arr2, n2);
 }
 
 void print_array(int *arr, int n) {
@@ -79,11 +79,9 @@ void print_array(int *arr, int n) {
 
 int main() {
     int choice, n;
-
     cout << "Enter size of array: ";
     cin >> n;
     int *arr = new int[n];
-
     cout << "Enter elements:\n";
     for(int i = 0; i < n; i++)
         cin >> arr[i];
