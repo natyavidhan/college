@@ -103,13 +103,17 @@ public:
     }
 
     void delete_end() {
-        Node *p;
-        p = tail;
+        if (!tail) {
+            return;
+        }
+        Node *p = tail;
         tail = tail->prev;
         if (!tail) {
             head = 0;
+        } else {
+            tail->next = 0;
         }
-        delete(p);
+        delete p;
         return;
     }
 
@@ -125,22 +129,74 @@ public:
         q->next->prev = q;
         return;
     }
+
+    int search(int val) {
+        Node *curr = head;
+        int index = 0;
+        while (curr) {
+            if (curr->val == val) {
+                return index;
+            }
+            curr = curr->next;
+            index++;
+        }
+        return -1;
+    }
+
+    void reverse() {
+        if (!head || !head->next) {
+            return;
+        }
+        Node *curr = head;
+        while (curr) {
+            Node *nextNode = curr->next;
+            curr->next = curr->prev;
+            curr->prev = nextNode;
+            curr = nextNode;
+        }
+        Node *oldHead = head;
+        head = tail;
+        tail = oldHead;
+    }
 };
 
 
 
 int main() {
     DoublyLL list;
-    int nums[10] = {1, 3, 5, 7, 9, 2, 4, 6, 8, 0};
-    for (int i=0; i<10; i++) {
-        list.add_end(nums[i]);
-    }
-    list.add_ith(69, 2);
+    list.add_start(10);
+    list.add_end(20);
+    list.add_end(30);
+    list.add_ith(25, 2);
+
+    cout << "Initial list: ";
+    list.print();
+
+    int idx25 = list.search(25);
+    cout << "Search 25: " << (idx25 != -1 ? "Found at index " + to_string(idx25) : "Not found") << "\n";
+    int idx99 = list.search(99);
+    cout << "Search 99: " << (idx99 != -1 ? "Found at index " + to_string(idx99) : "Not found") << "\n";
+
+    list.delete_ith(1);
+    cout << "After deleting position 1: ";
+    list.print();
 
     list.delete_start();
-    list.delete_end();
-    list.delete_ith(2);
-    
+    cout << "After deleting start: ";
     list.print();
+
+    list.delete_end();
+    cout << "After deleting end: ";
+    list.print();
+
+    list.add_start(5);
+    list.add_end(40);
+    cout << "After new insertions: ";
+    list.print();
+
+    list.reverse();
+    cout << "After reversing: ";
+    list.print();
+
     return 0;
 }

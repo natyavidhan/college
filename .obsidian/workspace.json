@@ -6,7 +6,6 @@
       {
         "id": "14a5e5118472d45f",
         "type": "tabs",
-        "dimension": 52.345415778251606,
         "children": [
           {
             "id": "d5aea2dd8b89a58c",
@@ -20,25 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "assorted ques"
-            }
-          }
-        ]
-      },
-      {
-        "id": "1dba98d5b22cd95d",
-        "type": "tabs",
-        "dimension": 47.6545842217484,
-        "children": [
-          {
-            "id": "0c702e5a2dc686f6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem 3/DSE/PYQs/merged pyqs.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "merged pyqs"
             }
           }
         ]
@@ -98,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "3a368affbd4d7add",
@@ -115,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem 3/DSE/assorted ques.md",
+                "file": "sem 3/DSE/PYQs/merged pyqs.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for assorted ques"
+              "title": "Backlinks for merged pyqs"
             }
           },
           {
@@ -212,7 +191,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "eccd19718d7b195f",
+  "active": "d5aea2dd8b89a58c",
   "lastOpenFiles": [
     "sem 3/DSE/PYQs/merged pyqs.pdf",
     "sem 3/DSE/assorted ques.md",
