@@ -8,83 +8,44 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cf82fda13b5b7dd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem 3/AI/1. Introduction.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. Introduction"
-            }
-          },
-          {
-            "id": "bc848c522dfde453",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem 3/OS/Syllabus.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Syllabus"
-            }
-          },
-          {
-            "id": "dabd4b7d5de8a80b",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "sem 3/Class Test Series 1.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Class Test Series 1"
-            }
-          },
-          {
-            "id": "738c6f0c57bcdb6a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem 3/OS/Abraham Silberschatz-Operating System Concepts (9th,2012_12).pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Abraham Silberschatz-Operating System Concepts (9th,2012_12)"
-            }
-          },
-          {
             "id": "8070ab4eb2a8f805",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sem 3/OS/04 Memory Management/Chapter 8.md",
+                "file": "sem 3/AI/4. Formalized Symbolic Logics.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 8"
+              "title": "4. Formalized Symbolic Logics"
+            }
+          },
+          {
+            "id": "7d9210f8585c8e3a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem 3/AI/Introduction_to_Artificial_Intelligence_and_Expert_Systems_by_Dan.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Introduction_to_Artificial_Intelligence_and_Expert_Systems_by_Dan"
+            }
+          },
+          {
+            "id": "fc433fea95884845",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem 3/AI/Guidelines_AI.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Guidelines_AI"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -256,8 +217,12 @@
   },
   "active": "8070ab4eb2a8f805",
   "lastOpenFiles": [
-    "sem 3/Class Test Series 1.md",
+    "sem 3/AI/Introduction_to_Artificial_Intelligence_and_Expert_Systems_by_Dan.pdf",
+    "sem 3/AI/4. Formalized Symbolic Logics.md",
+    "sem 3/AI/Guidelines_AI.pdf",
+    "sem 3/AI/Syllabus.md",
     "sem 3/OS/04 Memory Management/Chapter 8.md",
+    "sem 3/Class Test Series 1.md",
     "sem 3/OS/Syllabus.md",
     "sem 3/OS/practicals/~$actical 7.docx",
     "sem 3/OS/practicals/Practical 7.pdf",
@@ -283,11 +248,7 @@
     "sem 3/OS/PYQs/IMG-20250828-WA0026.jpg",
     "sem 3/OS/PYQs/IMG-20250828-WA0025.jpg",
     "sem 3/OS/Exercises.md",
-    "sem 3/OS/Abraham Silberschatz-Operating System Concepts (9th,2012_12).pdf",
-    "sem 3/OS/syllabus.pdf",
     "sem 3/OS/Solutions.md",
-    "sem 3/AI/Syllabus.md",
-    "sem 3/AI/4. Formalized Symbolic Logics.md",
     "sem 3/DSE/Syllabus.md",
     "sem 3/DS/Syllabus.md",
     "2 Data aggregation.md",
