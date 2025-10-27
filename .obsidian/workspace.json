@@ -11,14 +11,12 @@
             "id": "8070ab4eb2a8f805",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "sem 3/AI/4. Formalized Symbolic Logics.md",
-                "mode": "preview",
-                "source": false
+                "file": "sem 3/DS/DS BSc Hons Guidelines[1].pdf"
               },
-              "icon": "lucide-file",
-              "title": "4. Formalized Symbolic Logics"
+              "icon": "lucide-file-text",
+              "title": "DS BSc Hons Guidelines[1]"
             }
           },
           {
@@ -215,10 +213,16 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "8070ab4eb2a8f805",
+  "active": "7445f84ab9c57cbd",
   "lastOpenFiles": [
-    "sem 3/AI/Introduction_to_Artificial_Intelligence_and_Expert_Systems_by_Dan.pdf",
+    "sem 3/DSE/practicals/cleaned_paper_reviews.csv",
+    "sem 3/DSE/practicals/reviews.json",
+    "sem 3/DSE/practicals/paper+reviews.zip",
+    "sem 3/DSE/practicals/p1.py",
+    "sem 3/DSE/practicals",
+    "sem 3/DS/Data_structures_and_algorithms_in_c_2nd.pdf",
     "sem 3/AI/4. Formalized Symbolic Logics.md",
+    "sem 3/AI/Introduction_to_Artificial_Intelligence_and_Expert_Systems_by_Dan.pdf",
     "sem 3/AI/Guidelines_AI.pdf",
     "sem 3/AI/Syllabus.md",
     "sem 3/OS/04 Memory Management/Chapter 8.md",
@@ -228,11 +232,6 @@
     "sem 3/OS/practicals/Practical 7.pdf",
     "sem 3/OS/practicals/Practical 7.docx",
     "sem 3/OS/04 Memory Management/Swapping Exercises.md",
-    "sem 3/OS/04 Memory Management",
-    "sem 3/DS/practicals/DS September Assignments.pdf",
-    "sem 3/DS/practicals/DS September Assignments.docx",
-    "sem 3/DS/linked/circular.cpp",
-    "sem 3/DSE/dm test 1 ch1, 2.pdf",
     "sem 3/DSE/2 Data Preprocessing.md",
     "sem 3/DSE/1 Introduction to Data Mining.md",
     "sem 3/AI/1. Introduction.md",
