@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem 3/DS/DS BSc Hons Guidelines[1].pdf"
+                "file": "sem 3/OS/syllabus.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "DS BSc Hons Guidelines[1]"
+              "title": "syllabus"
             }
           },
           {
@@ -43,7 +43,8 @@
               "title": "Guidelines_AI"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -213,19 +214,19 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "7445f84ab9c57cbd",
+  "active": "fc433fea95884845",
   "lastOpenFiles": [
-    "sem 3/OS/practicals/p12.py",
-    "sem 3/DSE/practicals/p4.ipynb",
-    "sem 3/DSE/practicals/p2.ipynb",
-    "sem 3/DSE/practicals/p1.ipynb",
-    "sem 3/DSE/practicals/p4.py",
-    "sem 3/DSE/practicals/p2.py",
-    "sem 3/DSE/practicals/cleaned_paper_reviews.csv",
-    "sem 3/DSE/practicals/reviews.json",
-    "sem 3/DSE/practicals/paper+reviews.zip",
-    "sem 3/DSE/practicals/p1.py",
-    "sem 3/DSE/practicals",
+    "sem 3/DS/practicals/rec_ll_len.cpp",
+    "sem 3/OS/syllabus.pdf",
+    "sem 3/DSE/Guidelines-Datamining-Semester-III-V-DSE July 2025.pdf",
+    "sem 3/DSE/dm test 1 ch1, 2.pdf",
+    "sem 3/AI/Guidelines_AI.pdf",
+    "sem 3/DS/DS BSc Hons Guidelines[1].pdf",
+    "sem 3/DS/practicals/rec_max.cpp",
+    "sem 3/DS/practicals/a.out",
+    "sem 3/DS/practicals/add_stack.cpp",
+    "sem 3/OS/practicals/pthread.c",
+    "sem 3/OS/practicals/Practical 12.pdf",
     "sem 3/AI/4. Formalized Symbolic Logics.md",
     "sem 3/AI/Syllabus.md",
     "sem 3/OS/04 Memory Management/Chapter 8.md",
