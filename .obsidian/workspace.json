@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "14a5e5118472d45f",
+        "id": "c01786cbf515d1c4",
         "type": "tabs",
         "children": [
           {
-            "id": "8070ab4eb2a8f805",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem 3/OS/syllabus.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "syllabus"
-            }
-          },
-          {
-            "id": "7d9210f8585c8e3a",
+            "id": "34eaa8d40b66453a",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -32,19 +20,21 @@
             }
           },
           {
-            "id": "fc433fea95884845",
+            "id": "222d442c08f68d5f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "sem 3/AI/Guidelines_AI.pdf"
+                "file": "sem 3/AI/12. Natural Language Porcessing.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Guidelines_AI"
+              "icon": "lucide-file",
+              "title": "12. Natural Language Porcessing"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,24 +204,25 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "fc433fea95884845",
+  "active": "222d442c08f68d5f",
   "lastOpenFiles": [
-    "sem 3/DS/practicals/rec_ll_len.cpp",
-    "sem 3/OS/syllabus.pdf",
-    "sem 3/DSE/Guidelines-Datamining-Semester-III-V-DSE July 2025.pdf",
-    "sem 3/DSE/dm test 1 ch1, 2.pdf",
     "sem 3/AI/Guidelines_AI.pdf",
+    "sem 3/AI/12. Natural Language Porcessing.md",
+    "sem 3/AI/Introduction_to_Artificial_Intelligence_and_Expert_Systems_by_Dan.pdf",
+    "sem 3/OS/Syllabus.md",
+    "sem 3/OS/syllabus.pdf",
+    "sem 3/DSE/5 Classification.md",
+    "sem 3/DSE/Guidelines-Datamining-Semester-III-V-DSE July 2025.pdf",
+    "sem 3/DSE/Pang-Ning_Tan_Michael_Steinbach_Vipin_Kumar_-_Introduction_to_Data_Mining-Pe_NRDK4fi.pdf",
+    "sem 3/DS/practicals/rec_ll_len.cpp",
+    "sem 3/DSE/dm test 1 ch1, 2.pdf",
     "sem 3/DS/DS BSc Hons Guidelines[1].pdf",
     "sem 3/DS/practicals/rec_max.cpp",
     "sem 3/DS/practicals/a.out",
-    "sem 3/DS/practicals/add_stack.cpp",
-    "sem 3/OS/practicals/pthread.c",
-    "sem 3/OS/practicals/Practical 12.pdf",
     "sem 3/AI/4. Formalized Symbolic Logics.md",
     "sem 3/AI/Syllabus.md",
     "sem 3/OS/04 Memory Management/Chapter 8.md",
     "sem 3/Class Test Series 1.md",
-    "sem 3/OS/Syllabus.md",
     "sem 3/OS/04 Memory Management/Swapping Exercises.md",
     "sem 3/DSE/2 Data Preprocessing.md",
     "sem 3/DSE/1 Introduction to Data Mining.md",
@@ -259,8 +250,6 @@
     "sem 3/DS/Drawing 2025-08-28 21.59.41.excalidraw.md",
     "sem 3/DS/CPP.md",
     "sem 3/OS/01 Introduction/Notes.md",
-    "sem 3/OS/01 Introduction/Solutions.md",
-    "Welcome.md",
-    "sem 3/OS/01 Introduction/Exercises.md"
+    "sem 3/OS/01 Introduction/Solutions.md"
   ]
 }
