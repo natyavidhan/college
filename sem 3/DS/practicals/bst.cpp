@@ -105,7 +105,11 @@ public:
                 return;
             }
         }
-        if (!(q->right && q->left)) {
+        if (!q->left && !q->right) {
+            if (!prev) head = 0;
+            else if (prev->left == q) prev->left = 0;
+            else prev->right = 0;
+        } else if (!(q->right && q->left)) {
             if (q->right) {
                 if (!prev) {
                     head = q->right;
@@ -319,6 +323,7 @@ int main() {
                 tree.count(internal, terminal);
                 cout << "Internal nodes: " << internal << endl;
                 cout << "Terminal nodes: " << terminal << endl;
+                cout << "Total nodes: " << (internal + terminal) << endl;
                 break;
             }
                 

@@ -6,8 +6,6 @@ using namespace std;
 bool palindrome(string s) {
     int len = s.length();
     if (len <= 1) return true;
-    // cout << s[0] << endl;
-    // cout << (s[0] != s[len-1]) << endl;
     if (s[0] != s[len-1]) return false;
     return palindrome(s.substr(1, len-2));
 }
