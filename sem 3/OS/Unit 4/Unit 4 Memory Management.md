@@ -104,3 +104,94 @@
 - A TLB is typically small (32 to 1,024 entries).
 - In the event of a TLB miss, the system must consult the page table, which usually resides in main memory.
 - Some TLBs allow certain entries, typically for key kernel code, to be **wired down**, meaning they cannot be removed.
+
+## Chapter 9: Virtual Memory Notes
+
+### 9.2 Demand Paging
+
+Demand paging is a core technique used in **virtual memory** systems. Virtual memory is a technique that permits the execution of processes that are **not completely in memory**.
+
+**Key Concepts:**
+
+- **Programs Larger Than Physical Memory:** One major advantage is that programs can be larger than the physical memory available.
+- **Lazy Loading:** Demand paging loads pages only **when they are demanded** (referenced) during program execution. Pages that are never accessed are therefore never loaded into physical memory.
+- **Performance Benefit:** This approach avoids bringing unused pages into memory, which decreases the swap time and the required amount of physical memory.
+
+**Basic Mechanisms (9.2.1):**
+
+- **Hardware Support:** Hardware must be able to distinguish between pages currently in memory and pages residing on disk.
+- **Valid–Invalid Bit:** The hardware utilizes the **valid–invalid bit** (discussed previously in Section 8.5.3).
+    - If the bit is "valid," the page is legal and present in memory.
+    - If the bit is "invalid," the page is either not valid (outside the logical address space) or is valid but currently residing on the disk.
+- **Page Fault:** Accessing a page marked invalid triggers a **page fault** (a trap to the operating system).
+
+**Steps in Handling a Page Fault (Figure 9.6):**
+
+1. Determine the location of the desired page on the disk.
+2. Find a **free frame** in memory. If no free frame exists, a **page-replacement algorithm** is used to select a **victim frame**.
+3. If the victim frame has been modified (is "dirty"), it is **written out to the disk**; the page and frame tables are updated accordingly.
+4. The desired page is read from disk into the newly freed frame, and the page table is reset for the new page.
+5. The process is restarted.
+
+**Supporting Demand Paging:**
+
+- **Restartable Instructions:** A crucial requirement is the ability to **restart any instruction** after a page fault, meaning the state of the interrupted process (registers, instruction counter, etc.) must be preserved and restored precisely.
+- **Secondary Memory:** Pages not in main memory are held in **secondary memory**, typically a high-speed disk, known as the **swap device**, and the area used is called **swap space**.
+- **Mobile Systems:** Mobile operating systems typically **do not support swapping**. Instead, they demand-page from the file system and reclaim read-only pages (like code) from applications if memory becomes constrained.
+
+**Performance (9.2.2):**
+
+- The performance of demand paging is measured by the **effective access time** ($EAT$).
+- Typical **memory-access time** ($m_a$) ranges from 10 to 200 nanoseconds.
+- If no page faults occur, $EAT$ equals $m_a$.
+- If a page fault occurs, a disk access is required, significantly increasing the time.
+- The three major components of page-fault service time are:
+    1. Service the page-fault interrupt (1 to 100 microseconds).
+    2. **Read in the page** (the slowest part, typically **8 milliseconds** for a hard disk).
+    3. Restart the process (1 to 100 microseconds).
+
+### 9.4 Page Replacement
+
+**Page replacement** is required when a process incurs a page fault but there are **no free frames** available in physical memory.
+
+**Goals and Necessity:**
+
+- Page replacement algorithms aim to **reduce the page-fault rate**.
+- This mechanism completes the separation between logical memory and physical memory, allowing programmers to utilize an **enormous virtual memory** regardless of the actual physical memory size.
+
+**Handling Victim Pages:**
+
+- When a page is selected as a victim, if it has been **modified** (is "dirty"), its contents must be copied back to the disk.
+- If the victim page has not been modified, it can simply be discarded.
+- A page that has not been modified may be discarded, which **reduces the time to service a page fault by one-half**, as it avoids one I/O operation.
+
+**Algorithm Evaluation:**
+
+- Page replacement algorithms are evaluated by running them on a **reference string** (a sequence of page numbers referenced by the process) and calculating the **number of page faults** generated.
+- Generally, as the number of available frames increases, the number of page faults decreases (as illustrated in Figure 9.11).
+
+### 9.4.4 LRU Page Replacement
+
+The **Least Recently Used (LRU) algorithm** attempts to approximate the performance of the infeasible optimal algorithm (OPT).
+
+**Core Principle:**
+
+- The LRU algorithm relies on the principle that the recent past can predict the near future.
+- It chooses to replace the page that has **not been used for the longest period of time**.
+- In contrast: FIFO uses the time the page was brought into memory; OPT uses the time when the page will be used next.
+
+**Performance Example:**
+
+- For the example reference string (7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2, 1, 2, 0, 1, 7, 0, 1) using three frames, the LRU algorithm results in **12 page faults**.
+
+**Implementation Challenges:**
+
+- Implementing **true LRU** replacement is costly because it requires substantial hardware support.
+- **Counter Implementation:** One approach is to associate a **counter** with every page-table entry, updated on every memory reference. The page with the smallest counter value is the victim. This approach is expensive due to the need to update the counter register and copy it to the page table for every memory access, which occurs frequently (every 10 to 200 nanoseconds).
+- **Stack Implementation:** Another approach uses a **stack** of page numbers. When a page is referenced, it is moved from its current position to the top of the stack. The page at the bottom is the LRU page. However, updating a stack of $m$ frames requires $O(m)$ time. This overhead is too slow and could theoretically slow down every user process significantly.
+
+Since true LRU is highly difficult to implement efficiently, most systems rely on LRU-approximation algorithms.
+
+---
+
+_Clarification Analogy: Think of LRU replacement like managing a small, frequently accessed toolbox (physical memory). If you need to put a new tool in, you want to get rid of the tool you haven't touched for the longest time, assuming that's the one you least need right now. While this strategy is logically the best (closest to knowing the future), actually tracking the exact moment every tool was last used (down to the nanosecond) would require an observer (hardware) so complex and quick that the time spent watching the tools outweighs the benefit of having them!_

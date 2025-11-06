@@ -8,33 +8,42 @@
         "type": "tabs",
         "children": [
           {
-            "id": "34eaa8d40b66453a",
+            "id": "222d442c08f68d5f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "kanban",
               "state": {
-                "file": "sem 3/AI/Introduction_to_Artificial_Intelligence_and_Expert_Systems_by_Dan.pdf"
+                "file": "sem 3/complete syllabus.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Introduction_to_Artificial_Intelligence_and_Expert_Systems_by_Dan"
+              "icon": "lucide-trello",
+              "title": "complete syllabus"
             }
           },
           {
-            "id": "222d442c08f68d5f",
+            "id": "39f987c0294bfb1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sem 3/AI/12. Natural Language Porcessing.md",
+                "file": "sem 3/OS/Unit 2/Unit 2 Operating System Structures.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12. Natural Language Porcessing"
+              "title": "Unit 2 Operating System Structures"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,27 +215,40 @@
   },
   "active": "222d442c08f68d5f",
   "lastOpenFiles": [
-    "sem 3/AI/Guidelines_AI.pdf",
-    "sem 3/AI/12. Natural Language Porcessing.md",
-    "sem 3/AI/Introduction_to_Artificial_Intelligence_and_Expert_Systems_by_Dan.pdf",
-    "sem 3/OS/Syllabus.md",
+    "Untitled Kanban.md",
+    "sem 3/complete syllabus.md",
+    "sem 3/OS/Unit 1/Solutions.md",
+    "sem 3/OS/Unit 2/Unit 2 Operating System Structures.md",
     "sem 3/OS/syllabus.pdf",
-    "sem 3/DSE/5 Classification.md",
-    "sem 3/DSE/Guidelines-Datamining-Semester-III-V-DSE July 2025.pdf",
-    "sem 3/DSE/Pang-Ning_Tan_Michael_Steinbach_Vipin_Kumar_-_Introduction_to_Data_Mining-Pe_NRDK4fi.pdf",
-    "sem 3/DS/practicals/rec_ll_len.cpp",
-    "sem 3/DSE/dm test 1 ch1, 2.pdf",
-    "sem 3/DS/DS BSc Hons Guidelines[1].pdf",
-    "sem 3/DS/practicals/rec_max.cpp",
-    "sem 3/DS/practicals/a.out",
-    "sem 3/AI/4. Formalized Symbolic Logics.md",
-    "sem 3/AI/Syllabus.md",
-    "sem 3/OS/04 Memory Management/Chapter 8.md",
-    "sem 3/Class Test Series 1.md",
+    "sem 3/OS/Unit 2",
+    "sem 3/OS/Unit 5/Unit 5 File System.md",
+    "sem 3/OS/Unit 5",
+    "sem 3/OS/Unit 3/Unit 3 Process Management.md",
+    "sem 3/OS/Unit 3/Exercises.md",
+    "sem 3/OS/Unit 3/Solutions.md",
+    "sem 3/OS/Unit 3",
+    "sem 3/OS/Unit 4",
+    "sem 3/OS/Unit 4/Unit 4 Memory Management.md",
     "sem 3/OS/04 Memory Management/Swapping Exercises.md",
+    "sem 3/AI/Russell and Norvig.pdf",
+    "sem 3/AI/Introduction_to_Artificial_Intelligence_and_Expert_Systems_by_Dan.pdf",
+    "sem 3/AI/Unit 5 AI – The Present and the Future.md",
+    "sem 3/AI/Guidelines_AI.pdf",
+    "sem 3/AI/Unit 1 AI Introduction.md",
+    "sem 3/AI/Unit 3 Knowledge Representation",
+    "sem 3/AI/Unit 3 Knowledge Representation/7. Structured Knowledge.md",
+    "sem 3/AI/Unit 2 Problem Solving and Searching Techniques.md",
+    "sem 3/DSE/4 Association Rule Mining.md",
+    "sem 3/DSE/Guidelines-Datamining-Semester-III-V-DSE July 2025.pdf",
+    "sem 3/DSE/3 Cluster Analysis.md",
     "sem 3/DSE/2 Data Preprocessing.md",
+    "sem 3/AI/Unit 4 Natural Language Porcessing.md",
+    "sem 3/AI/Syllabus.md",
+    "sem 3/DS/notes/Recurrence Relations.md",
+    "sem 3/DSE/5 Classification.md",
+    "sem 3/DS/Syllabus.md",
+    "sem 3/AI/Unit 3 Knowledge Representation/4. Formalized Symbolic Logics.md",
     "sem 3/DSE/1 Introduction to Data Mining.md",
-    "sem 3/AI/1. Introduction.md",
     "sem 3/OS/PYQs/IMG-20250828-WA0034.jpg",
     "sem 3/OS/PYQs/IMG-20250828-WA0033.jpg",
     "sem 3/OS/PYQs/IMG-20250828-WA0032.jpg",
@@ -238,18 +260,6 @@
     "sem 3/OS/PYQs/IMG-20250828-WA0027.jpg",
     "sem 3/OS/PYQs/IMG-20250828-WA0026.jpg",
     "sem 3/OS/PYQs/IMG-20250828-WA0025.jpg",
-    "sem 3/OS/Exercises.md",
-    "sem 3/OS/Solutions.md",
-    "sem 3/DSE/Syllabus.md",
-    "sem 3/DS/Syllabus.md",
-    "2 Data aggregation.md",
-    "2025-09-23 DSE Class Test.md",
-    "2025-09-24 Hindi Class Test.md",
-    "sem 3/README.md",
-    "sem 3/DS/Untitled.md",
-    "sem 3/DS/Drawing 2025-08-28 21.59.41.excalidraw.md",
-    "sem 3/DS/CPP.md",
-    "sem 3/OS/01 Introduction/Notes.md",
-    "sem 3/OS/01 Introduction/Solutions.md"
+    "sem 3/DSE/Syllabus.md"
   ]
 }
