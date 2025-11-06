@@ -23,11 +23,12 @@ kanban-plugin: board
 - [ ] Queues
 - [ ] BST
 - [ ] AVL Trees
+- [ ] Recursive Relations
+- [ ] Binary Heap
 
 
 ## AI
 
-- [ ] [[Unit 1 AI Introduction]]
 - [ ] [[Unit 2 Problem Solving and Searching Techniques]]
 - [ ] [[4. Formalized Symbolic Logics]]
 - [ ] [[7. Structured Knowledge]]
@@ -44,6 +45,11 @@ kanban-plugin: board
 - [ ] [[Unit 5 File System]]
 
 
+## Doing
+
+- [ ] [[Unit 1 AI Introduction]]
+
+
 ## Done
 
 **Complete**
@@ -53,6 +59,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false,false]}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false,false,false]}
 ```
 %%

@@ -4,46 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "c01786cbf515d1c4",
+        "id": "1ed526b56364a011",
         "type": "tabs",
         "children": [
           {
-            "id": "222d442c08f68d5f",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "sem 3/complete syllabus.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "complete syllabus"
-            }
-          },
-          {
-            "id": "39f987c0294bfb1f",
+            "id": "e03e50244ff0d133",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sem 3/OS/Unit 2/Unit 2 Operating System Structures.md",
-                "mode": "source",
+                "file": "sem 3/AI/Unit 2 Problem Solving and Searching Techniques.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unit 2 Operating System Structures"
+              "title": "Unit 2 Problem Solving and Searching Techniques"
+            }
+          },
+          {
+            "id": "dce57451f5f25cc9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem 3/AI/Russell and Norvig.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Russell and Norvig"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,12 +204,18 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "222d442c08f68d5f",
+  "active": "dce57451f5f25cc9",
   "lastOpenFiles": [
-    "Untitled Kanban.md",
-    "sem 3/complete syllabus.md",
-    "sem 3/OS/Unit 1/Solutions.md",
+    "sem 3/AI/Unit 2 Problem Solving and Searching Techniques.md",
+    "sem 3/AI/Russell and Norvig.pdf",
+    "sem 3/Drawing 2025-09-20 04.06.31.excalidraw.md",
+    "sem 3/AI/Unit 1 AI Introduction.md",
     "sem 3/OS/Unit 2/Unit 2 Operating System Structures.md",
+    "sem 3/AI/Guidelines_AI.pdf",
+    "sem 3/AI/Syllabus.md",
+    "sem 3/complete syllabus.md",
+    "Untitled Kanban.md",
+    "sem 3/OS/Unit 1/Solutions.md",
     "sem 3/OS/syllabus.pdf",
     "sem 3/OS/Unit 2",
     "sem 3/OS/Unit 5/Unit 5 File System.md",
@@ -230,20 +227,15 @@
     "sem 3/OS/Unit 4",
     "sem 3/OS/Unit 4/Unit 4 Memory Management.md",
     "sem 3/OS/04 Memory Management/Swapping Exercises.md",
-    "sem 3/AI/Russell and Norvig.pdf",
     "sem 3/AI/Introduction_to_Artificial_Intelligence_and_Expert_Systems_by_Dan.pdf",
     "sem 3/AI/Unit 5 AI – The Present and the Future.md",
-    "sem 3/AI/Guidelines_AI.pdf",
-    "sem 3/AI/Unit 1 AI Introduction.md",
     "sem 3/AI/Unit 3 Knowledge Representation",
     "sem 3/AI/Unit 3 Knowledge Representation/7. Structured Knowledge.md",
-    "sem 3/AI/Unit 2 Problem Solving and Searching Techniques.md",
     "sem 3/DSE/4 Association Rule Mining.md",
     "sem 3/DSE/Guidelines-Datamining-Semester-III-V-DSE July 2025.pdf",
     "sem 3/DSE/3 Cluster Analysis.md",
     "sem 3/DSE/2 Data Preprocessing.md",
     "sem 3/AI/Unit 4 Natural Language Porcessing.md",
-    "sem 3/AI/Syllabus.md",
     "sem 3/DS/notes/Recurrence Relations.md",
     "sem 3/DSE/5 Classification.md",
     "sem 3/DS/Syllabus.md",
@@ -254,12 +246,10 @@
     "sem 3/OS/PYQs/IMG-20250828-WA0032.jpg",
     "sem 3/OS/PYQs/IMG-20250828-WA0031.jpg",
     "sem 3/OS/PYQs/IMG-20250828-WA0030.jpg",
-    "Drawing 2025-09-20 04.06.31.excalidraw.md",
     "sem 3/OS/PYQs/IMG-20250828-WA0029.jpg",
     "sem 3/OS/PYQs/IMG-20250828-WA0028.jpg",
     "sem 3/OS/PYQs/IMG-20250828-WA0027.jpg",
     "sem 3/OS/PYQs/IMG-20250828-WA0026.jpg",
-    "sem 3/OS/PYQs/IMG-20250828-WA0025.jpg",
-    "sem 3/DSE/Syllabus.md"
+    "sem 3/OS/PYQs/IMG-20250828-WA0025.jpg"
   ]
 }
