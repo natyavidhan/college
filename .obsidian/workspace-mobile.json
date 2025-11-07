@@ -11,12 +11,12 @@
             "id": "715ddbc5c4cc908f",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "pdf",
               "state": {
-                "file": "Drawing 2025-09-20 04.06.31.excalidraw.md"
+                "file": "sem 3/DSE/Guidelines-Datamining-Semester-III-V-DSE July 2025.pdf"
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-09-20 04.06.31.excalidraw"
+              "icon": "lucide-file-text",
+              "title": "Guidelines-Datamining-Semester-III-V-DSE July 2025"
             }
           }
         ]
@@ -177,10 +177,11 @@
   },
   "active": "715ddbc5c4cc908f",
   "lastOpenFiles": [
+    "sem 3/AI/Guidelines_AI.pdf",
+    "Drawing 2025-09-20 04.06.31.excalidraw.md",
     "sem 3/DS/Cormen_4ed.pdf",
     "/Drawing 2025-09-20 04.06.31.excalidraw.md",
     "sem 3/DS/CPP.md",
-    "Drawing 2025-09-20 04.06.31.excalidraw.md",
     "sem 3/DS/Drawing 2025-08-28 21.59.41.excalidraw.md",
     "sem 3/OS/01 Introduction/Exercises.md"
   ]
