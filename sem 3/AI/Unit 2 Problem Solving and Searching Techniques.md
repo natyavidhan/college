@@ -2,34 +2,32 @@
 
 #### 3.1 Problem-Solving Agents
 
-A **problem-solving agent** utilizes a process called **search** to plan ahead when the correct action is not immediately obvious, considering a sequence of actions that form a path to a goal state.
-
-**Atomic Representation** Problem-solving agents use **atomic representations**, where states of the world are treated as indivisible wholes, having no internal structure visible to the problem-solving algorithms.
-
-**Components of a Search Problem** A search problem is formally defined by five components:
-
-1. **States:** A set of possible states the environment can be in, referred to as the **state space**.
-2. **Initial state:** The state the agent begins in.
-3. **Actions:** A set of actions possible in any state, combined with a **transition model** that describes the state resulting from taking a specific action in a specific state.
-4. **Goal test:** A way to determine if a state is the goal state.
-5. **Path cost:** A function that assigns a numeric cost to a path. For this type of problem, all action costs are assumed to be positive.
-
-A **solution** is a sequence of actions from the initial state to a goal state, and a "good" solution is one with the lowest **path cost**. The state space can be represented as a **graph**, where vertices are states and directed edges are actions.
+1. **The Nature of Search and Planning:**
+    
+    - When the correct action is not immediately obvious, an agent may need to **plan ahead** by considering a sequence of actions that form a path to a goal state.
+    - Such an agent is known as a **problem-solving agent**, and the required computational process is called **search**.
+    - Problem-solving agents utilize **atomic representations**, meaning states of the world are considered as whole, indivisible units without internal structure visible to the search algorithms.
+2. **Components of a Search Problem:** A search problem consists of five key components:
+    
+    - **Initial state:** The starting point for the agent.
+    - **Actions:** The set of actions available to the agent (sometimes called _operators_).
+    - **Transition model** ($RESULT(s, a)$): This describes the state that results from performing an action $a$ in state $s$.
+    - **Goal test:** A way to determine if a given state is the goal state.
+    - **Path cost:** A function that assigns a numerical cost to an action sequence, typically calculated as the sum of the costs of the individual actions. Actions are generally assumed to have positive costs.
+    - A **solution** is defined as an action sequence that maps the initial state to a goal state.
+3. **State Space Representation:**
+    
+    - The overall state space can be modeled as a **graph**, where states are vertices and the directed edges connecting them represent actions.
 
 #### 3.2 Example Problems
 
-Problems tackled by problem-solving agents are often categorized as **standardized problems** or **real-world problems**.
-
-**Standardized Problems** Standardized problems are benchmarks with concise, exact descriptions used to test and compare problem-solving algorithms:
-
-- **Grid world problem:** A two-dimensional array where agents move between cells. The **vacuum world** from Section 2.1 is an example. A simple two-cell vacuum world has 8 states. A vacuum environment with $n$ cells has $n \cdot 2^n$ states.
-- **Infinite state spaces:** Problems involving the generation of mathematical expressions, circuits, proofs, or programs, where the state space is infinite.
-
-**Real-World Problems** Real-world problems include applications whose solutions are actively used:
-
-- **Route-finding problems:** Defined by specified locations and transitions along edges, used in applications like Web directions and military planning. Complications include varying costs due to traffic and rerouting.
-- **Robot navigation:** A generalization of route-finding where a robot creates its own paths in a potentially continuous, multi-dimensional search space (one dimension for each joint angle).
-- **Automatic assembly sequencing:** Determining the optimal order to assemble parts of an object. A key example is **protein design**.
+- Example problems are frequently used in AI because they are concisely described and easily manipulated.
+- **Grid Worlds (e.g., Vacuum World):**
+    - The state definition includes which objects are in which cells (like the agent and any dirt).
+    - In the simple **two-cell vacuum world**, there are 8 distinct states: the agent can be in one of two cells, and each cell can either contain dirt or not ($2 \cdot 2 \cdot 2 = 8$ states).
+    - The actions defined for this simple world are **Suck**, move **Left**, and move **Right**.
+    - For a general vacuum environment with $n$ cells, there are $n \cdot 2^n$ possible states.
+    - The goal is to have no dirt in any cell, and the standard path cost is 1 per action.
 
 ---
 
@@ -37,9 +35,18 @@ Problems tackled by problem-solving agents are often categorized as **standardiz
 
 #### 5.1 Defining Constraint Satisfaction Problems
 
-A **Constraint Satisfaction Problem (CSP)** is defined by a set of variables, a domain for each variable, and a set of constraints.
-
-A state in a CSP is determined by assigning values to some or all variables. An assignment that adheres to all constraints is called a **consistent** or **legal** assignment. A **solution** to a CSP is a complete and consistent assignment.
+- **Factored Representation:** CSPs break away from the atomic state model by using a **factored representation**, where the state is defined by a set of **variables**, each having a specific **value**.
+- A **Constraint Satisfaction Problem (CSP)** is solved when all constraints are satisfied by the values assigned to the variables.
+- **Formal Definition:** A CSP is defined by three components:
+    1. A set of **variables** $X$.
+    2. A set of **domains** $D$, where $D_i$ is the set of possible values for variable $X_i$.
+    3. A set of **constraints** $C$.
+- **Assignments and Solutions:**
+    - A **state** is an assignment of values to some or all variables.
+    - An assignment is **complete** if every variable has a value.
+    - A **solution** is a complete and consistent assignment.
+- **Constraints:** Constraints specify the acceptable combinations of values for a subset of variables. They can be defined either by listing the allowed pairs (or tuples) or by an algebraic relationship.
+    - Constraints can be classified by the number of variables involved (e.g., unary, binary, or high-order constraints).
 
 ---
 
@@ -47,13 +54,18 @@ A state in a CSP is determined by assigning values to some or all variables. An 
 
 #### 6.1 Game Theory
 
-Game theory is essential for studying **multiagent systems** and decisions in **multiagent environments** where the actions of one agent significantly impact the utility of others.
-
-For certain games, a rational agent should adopt policies that are or appear to be **randomized**. The study of rational decisions resulting from sequential actions was historically pursued in operations research, leading to fields like reinforcement learning.
+- **Adversarial Search:** This type of search deals with **competitive environments** where two or more agents have conflicting goals.
+- AI research typically focuses on **games** because they are simplified: states are easy to represent, and actions are precisely regulated.
+- Games are categorized based on factors such as whether they are deterministic or stochastic, whether they are zero-sum (constant sum of payoffs, often zero), and whether they involve perfect or imperfect information.
 
 #### 6.2 Optimal Decisions in Games
 
-Optimal decision-making in adversarial search problems, such as games, is crucial. The simplest games studied are those that are deterministic, turn-taking, two-player, zero-sum, and fully observable.
+- **Zero-Sum Games with Perfect Information:** For deterministic, two-player, perfect-information, zero-sum games (like Chess or Checkers), the utility outcomes are typically defined as 1 (win for MAX), 0 (draw), or $-1$ (loss for MAX).
+- **Optimal Strategy:** The goal is for the maximizing agent (MAX) to choose a move that achieves the best possible outcome, assuming the minimizing opponent (MIN) also plays optimally.
+- **Minimax Algorithm:** This algorithm is used to compute the optimal move under the assumption of perfect adversarial play.
+    - The **Minimax value** of a state is the maximum utility that the agent can guarantee itself starting from that state.
+    - The game tree search alternates: MAX chooses the move to maximize utility, and MIN chooses the move to minimize utility.
+    - The time complexity of Minimax is **$O(b^m)$**, where $b$ is the branching factor (legal moves) and $m$ is the depth.
 
 ---
 
@@ -61,65 +73,68 @@ Optimal decision-making in adversarial search problems, such as games, is crucia
 
 #### 9.1 Introduction
 
-**Search** is fundamental in almost all AI programs. Problem solutions are sought by moving through various **states** in a problem space until a **goal state** is found. Search is widespread in AI for tasks such as identifying model patterns in vision perception, solving planning problems, and identifying matching words in natural language understanding.
+- **Central Role of Search:** **Search** is a core operational task in AI programs; nearly every AI application relies on a search procedure to execute its intended function.
+- Problems are formulated using **states**, and solutions are found by searching through the sequence of states until one or more **goal states** are reached.
+- Search is vital for solving complex problems such as understanding natural language, where a program must search dictionaries, grammatical structures, and contexts. It is also essential for pattern recognition in vision systems and for finding clauses in theorem proving.
+- The objective is to find methods that limit search and matching to avoid the "combinatorial explosion" common in search problems.
 
 #### 9.2 Preliminary Concepts
 
-A problem space consists of **states** and **operators** (transformations) that map states to other states. States include initial states, intermediate states, and **goal states**.
-
-- A **solution** is the sequence of operators mapping the initial state to the goal state.
-- The performance of a solution is judged by **time and space complexities**, often expressed using O notation (e.g., linear O(n), exponential O($b^k$)).
-- The search space is graphically represented as a directed **graph** or a **tree**. Nodes represent states, and arcs represent transformations.
-- Nodes below a parent are **children** (or successors); nodes above are **ancestors**.
-- The number of successors is the **branching degree** ($b$).
-- Search involves generating successive **child nodes** or **successors** from a parent node, a process known as **expanding the node**.
-
-Search strategies are categorized based on information availability:
-
-- **Blind (uninformed) search:** Gives no preference to the order of successor selection.
-- **Informed (directed) search:** Uses information about the problem space to compute preference among successors.
+- **Problem Space Definition:** A problem is characterized by a **space** consisting of a set of states (potentially infinite) and a set of **operators** (actions) that facilitate transitions between states.
+- **States and Solutions:** The states include one or more **initial states**, **intermediate states**, and one or more **goal states**.
+- A **solution** is defined as a sequence of operators that leads from an initial state to a goal state.
+- Performance is evaluated based on the amount of **time and memory space** required for solution completion.
+- **Graph/Tree Representation:** The problem space can be represented as a directed graph or a tree structure.
+- **Search Process:** Search involves finding a path by successively expanding nodes.
+    - **Node generation** is computing the representation code of child nodes from a parent.
+    - **Expanding the node** is the process of generating all children of a parent.
+    - A **search procedure** determines the strategy for ordering node generation and selecting a path.
+- **And-Or Graphs:** Used for problems that can be decomposed into subproblems where _all_ subproblems must be solved. An **And node** represents this requirement with a curved line connecting the emanating arcs. **Or nodes** permit choosing any single emanating path.
 
 #### 9.3 Examples of Search Problems
 
-Key examples illustrating search concepts include:
+- The structure of search problems can be exemplified by systems like the **General Problem Solver (GPS)**, which utilizes the problem-solving technique known as **means-end analysis (MEA)**.
+- GPS works by comparing an initial state/object ($L_x$) to a goal object ($L_g$), determining the difference, and systematically applying operations to reduce that difference until the goal is achieved.
 
-- **The Eight Puzzle:** A classic problem involving moving numbered tiles in a 3x3 frame to reach a goal configuration.
-- **General Problem Solver (GPS):** A system that separates task knowledge from problem-solving logic. GPS used a technique called **means-end analysis**, which repeatedly determined the difference between the current object (state) and the goal object, then applied appropriate rewrite rules (operators) to reduce that difference.
-- **Traveling Salesman Problem:** Finding an optimal tour through a set of cities.
+#### 9.4 Uninformed or Blind Search (Excluding Depth-First Iterative Deepening Search and Bidirectional Search)
 
-#### 9.4 Uninformed or Blind Search
+- A **blind or uninformed search** algorithm uses _only_ the initial state, the search operators, and the goal test; no domain-specific knowledge is used to guide the path selection.
 
-Uninformed search algorithms use no information beyond the initial state, the operators, and the goal test.
-
-- **Breadth-First Search:**
+1. **Depth-First Search (DFS):**
     
-    - **Strategy:** Explores all nodes at a given depth level before moving deeper.
-    - **Implementation:** Uses a FIFO queue.
-    - **Completeness and Optimality:** Always finds a solution with a **minimal path length** if one exists.
-    - **Complexity:** Time complexity is O($b^d$) and space complexity is O($b^d$). This exponential complexity (both time and space) is a primary drawback.
-- **Depth-First Search:**
+    - DFS explores the search space by proceeding as far down a path as possible before backing up.
+    - It operates by always generating a successor node (if possible) and continuing the search from that successor. If a path terminates (no successors found), the search backs up to the nearest unexplored branch.
+    - DFS is commonly implemented using a **LIFO queue (stack)**.
+    - Time and space complexities are generally $O(b^m)$, where $b$ is the branching factor and $m$ is the maximum depth.
+    - DFS is typically **incomplete** and **not optimal**.
+2. **Breadth-First Search (BFS):**
     
-    - **Strategy:** Always expands the **deepest node** in the frontier first.
-    - **Implementation:** Places newly generated children at the **head of the queue** (LIFO stack behavior).
-    - **Process:** Proceeds down a single path until a goal or terminal node is met, then backtracks.
-    - **Disadvantage (Memory/Completeness):** It is not systematic in infinite spaces and can get stuck going down an infinite path, making it **incomplete**.
+    - BFS explores nodes level by level, examining all nodes at depth $d$ before moving to depth $d+1$.
+    - It finds the shortest solution path based on the number of steps (transitions).
+    - BFS is implemented using a **FIFO queue**.
+    - BFS is **complete** and **optimal** when all action costs are equal.
+    - Time and space complexities are $O(b^d)$, where $d$ is the depth of the solution. The exponential space requirement can make it intractable for deep problems.
 
-#### 9.5 Informed Search
+#### 9.5 Informed Search (Excluding Branch-and-Bound and Iterative Deepening A*)
 
-Informed search methods use knowledge, often in the form of **heuristics**, to constrain the search space and find solutions more efficiently.
+- **Informed Search** methods utilize knowledge (heuristics) to restrict the number of states visited, preventing the search space from becoming intractable.
 
-- **Hill Climbing Methods:**
+1. **General Best-First Search:**
     
-    - **Strategy:** At each point in the search path, the successor node that appears to lead most quickly to the goal ("the top of the hill") is selected for exploration.
-    - **Drawbacks:** It discards previously expanded nodes and can get trapped in local optima, known as a **foothill**, a **ridge**, or a **plateau** (an area where all neighboring nodes have the same value).
-- **Best-First Search:**
+    - This strategy employs an evaluation function $f(n)$ to rate the relative promise of nodes on the _open_ list (or frontier).
+    - The **open list** holds nodes generated but not yet expanded; the **closed list** holds nodes already expanded.
+    - The node with the best $f(n)$ score is selected for expansion.
+2. **Hill Climbing:**
     
-    - **Strategy:** Retains and evaluates all estimates computed for all previously generated nodes, selecting the best among them.
-    - **Advantage:** Avoids the local traps encountered in hill climbing.
-- **Optimal Search and A*:**
+    - A local search approach that looks only at the current node and its immediate successors.
+    - It selects the successor node that yields the greatest improvement in relation to a heuristic measure of distance to the goal, $h(n)$.
+    - If no successor provides an improvement, the search terminates at a **local optimum**.
+    - While often finding _a_ solution, it does not guarantee finding the optimal one.
+3. **A\* Algorithm (Optimal Heuristic Search):**
     
-    - The **A* algorithm** is a specialization of best-first search that estimates the total cost from the start to the goal through a given successor node.
-    - Nodes are categorized into an **open list** (generated but not expanded) and a **closed list** (expanded).
-    - **Admissibility condition:** An algorithm that is guaranteed to return an optimal solution when one exists.
-    - **Completeness condition:** An algorithm that always terminates with a solution when one exists.
-    - **Dominance property:** An admissible algorithm $A_1$ is said to **dominate** another admissible algorithm $A_2$ if $A_1$ is "more informed" (i.e., its heuristic function consistently estimates the cost higher than $A_2$'s).
+    - A* is a standard method for finding the least-cost path.
+    - It uses the evaluation function $f^*(n) = g^*(n) + h^*(n)$.
+        - $g^*(n)$ is the actual lowest cost from the start node $n_0$ to $n$.
+        - $h^*(n)$ is the lowest cost from $n$ to the goal $n_g$.
+    - A* relies on an **admissible heuristic**, $h(n)$, which must always be less than or equal to the actual cost $h^*(n)$.
+    - If the heuristic is admissible, **A* guarantees finding an optimal path** to the goal.

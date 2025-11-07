@@ -1,74 +1,68 @@
-## Chapter 27: Computer Vision (Complete)
+### Chapter 27: Computer Vision (Complete)
 
-Chapter 27 is titled **Computer Vision**. Contributing writers for this chapter include Jitendra Malik and David Forsyth.
+Chapter 27 describes how to recover information from the input supplied by cameras, covering how vision connects the computer to the raw, physical world.
 
-### Overview and Components
+#### 27.1 Introduction: Perception and Sensing
 
-- Computer Vision is one of the six core disciplines comprising most of AI.
-- It is a necessary capability for passing the **total Turing test**, allowing a robot to perceive the world.
-- The curriculum includes the complete contents of Chapter 27.
+- **Vision as a Perceptual Channel:** Vision is a perceptual channel that accepts a stimulus (like light) and provides an internal representation of the world.
+- **Value of Vision:** Having vision offers immense value, enabling agents to predict the future, identify what they might encounter, and estimate distance.
+- **Sensing Modes:**
+    - **Passive Sensing:** Most agents that use vision employ passive sensing, meaning they do not emit a signal to see.
+    - **Active Sensing:** This involves sending out a signal (e.g., radar, ultrasound) and sensing the reflection, utilized by animals like bats and dolphins, and some robots.
 
-### Key Sections of Computer Vision
+#### 27.2 Image Formation
 
-The chapter covers the following topics in full:
+- **Distortions:** Imaging inherently distorts the appearance of objects. Examples include:
+    - **Foreshortening:** Causing objects (like a tilted book) to appear to shrink and grow.
+    - **Perspective:** Making parallel lines (like railway tracks) appear to converge.
+- **Lenses and Focus:** Lenses collect light leaving a point in the scene and steer it to a single point on the image plane.
+    - The **depth of field** refers to the region in the scene near the focal plane where points are focused properly.
+    - In the eye, specialized muscles change the shape of the lens to change the focal plane; in cameras, elements of the lens system move.
+- **Illumination Effects:** Photographs reveal various lighting phenomena, including:
+    - **Specularities:** Highly reflective points, such as on stainless steel.
+    - **Diffuse Reflection:** Surfaces facing the light appear bright; surfaces where light strikes at a tangential angle appear dark.
+    - **Shadows:** Areas where a surface cannot see the light source at all.
 
-- 27.1 Introduction.
-- 27.2 **Image Formation**.
-- 27.3 **Simple Image Features**.
-- 27.4 **Classifying Images**.
-- 27.5 **Detecting Objects**.
-- 27.6 The 3D World.
-- 27.7 **Using Computer Vision**.
+#### 27.3 Simple Image Features
 
-### Technology and Performance
-
-- The coverage of computer vision in the textbook has been **revised to reflect the impact of deep learning**.
-- The availability of big data was critical for advances in vision; the introduction of the **ImageNet database** (tens of millions of images) sparked a revolution in the field.
-- **State-of-the-Art Performance (by 2019):**
-    - Error rates for **object detection** (as measured in LSVRC) improved drastically from 28% in 2010 to **2% in 2017, exceeding human performance**.
-    - Accuracy on open-ended **visual question answering (VQA)** improved from 55% to 68% since 2015, although it still lags behind human performance (83%).
-    - Training time for the image recognition task dropped by a factor of 100 in just two years.
-- Current AI systems achieve impressive results in **image captioning** (e.g., describing a person riding a motorcycle on a dirt road) but are not yet perfect.
+- **Edges:** Edges computed from an image represent boundaries in the real world.
+- **Texture:** In computational vision, texture is a pattern on a surface that can be visually sensed, usually appearing roughly regular (e.g., stitches on a sweater or windows on a building).
+- **Texture Representation:** While historically described manually, it is no longer usual to construct these representations by hand. **Convolutional neural networks** (CNNs) are now used to produce these texture representations.
 
 ---
 
-## Chapter 28: Philosophy, Ethics, and Safety of AI (Complete)
+### Chapter 28: Philosophy, Ethics, and Safety of AI (Complete)
 
-Chapter 28 is titled **Philosophy, Ethics, and Safety of AI**. The complete contents of this chapter are required.
+Chapter 28 explores the _Philosophy, Ethics, and Safety of AI_. Given the increasing role of AI in society, considering the risks and benefits (or "hurts and remedies") is crucial.
 
-### Core Philosophical Questions
+#### 28.2 Can Machines Really Think?
 
-The chapter delves into fundamental philosophical issues, including:
+- This section addresses the question of whether machines can truly think.
+- The philosopher Francis Bacon noted in 1609 that "mechanical arts are of ambiguous use, serving as well for hurt as for remedy".
+- Alan Turing's influential 1950 article "Computing Machinery and Intelligence," which introduced the Turing test, also dealt with many of the objections raised to the possibility of AI.
 
-- The **Limits of AI**.
-- The question: **Can Machines Really Think?**.
-- The **Ethics of AI**.
-- It contains details regarding the **Turing test** and whether a computer would truly be intelligent if it passed.
+#### 28.3 The Ethics of AI and Immediate Risks
 
-### Ethics and Societal Impact (The Present)
+- The need to consider ethical consequences has matured as AI systems are applied in the real world. The study of **ethics, fairness, trust, and safety** has received increased coverage in the textbook.
+- **Misuse of AI (Immediate Risks):** Risks arise from misuse—inadvertent or otherwise—long before AI is "solved".
+    - **Lethal Autonomous Weapons (LAWs):** Weapons that can locate, select, and eliminate human targets without human intervention. A key concern is their **scalability**, as a small group could deploy an arbitrarily large number of weapons, given the lack of need for human supervision.
+    - **Economic Impact:** The use of AI generally results in increased wealth but tends to **shift wealth from labor to capital**, potentially exacerbating inequality.
+    - **Cybersecurity:** AI aids in defense (e.g., detecting unusual behavior) but also contributes to the potency and proliferation of malware; for instance, reinforcement learning has been used to create effective personalized blackmail and phishing tools.
+- **Governance and Regulation:** All these risks point to the importance of governance and eventual regulation. AI corporations and the research community have developed voluntary **self-governance principles** for AI-related activities.
 
-The textbook notes an **increase in coverage of the impact of AI on society**, including the vital issues of **ethics, fairness, trust, and safety**. Concerns about the risks and hurts AI can bring are already apparent or likely based on current trends.
+#### Longer-Term Safety: Superintelligence
 
-Key risks discussed (covered in depth in Section 28.3):
+- A major, longer-term question is the creation of **Artificial Superintelligence (ASI)**—intelligence comparable to or more capable than human intelligence.
+- **The Control Problem:** If superhuman AI systems evolve unpredictably and end up "taking control," it would be the result of a **design failure**. Norbert Wiener warned about the difficulty of controlling machines more intelligent than us.
+- **The Standard Model Failure:** For much of AI's history, the field operated under the **standard model** (systems maximize expected utility based on objectives supplied by human designers). This model is inadequate for superintelligence because it fails to account for the possibility of putting the wrong purpose into the machine (the King Midas problem), leading to unintended consequences.
+- **The Gorilla Problem:** Experiencing unease with creating superintelligent machines is natural; this is known as the gorilla problem, where one species (humans) loses control over its future to another (ASI), much as gorillas cannot control human activities.
+- **Shifting AI Conception:** Solving the control problem requires a change in our conception of AI. New frameworks being explored include:
+    - **Assistance games:** Mathematical models where a machine aims to achieve a human's objective while being initially uncertain about what that objective is.
+    - **Inverse reinforcement learning:** Methods allowing machines to learn human preferences by observing the choices humans make.
+    - A machine having a positive incentive to allow itself to be switched off _only if_ it is uncertain about the human objective.
 
-1. **Lethal Autonomous Weapons:** Defined as weapons that locate, select, and eliminate human targets **without human intervention**. A primary concern is their **scalability** (a small group can deploy an arbitrarily large number of weapons).
-2. **Surveillance and Persuasion:** AI enables **mass surveillance** (using speech recognition, computer vision, and NLP) and can be used to **modify and control political behavior** by tailoring information flows through social media.
-3. **Biased Decision Making:** Misuse of machine learning (e.g., for parole or loan applications) can produce decisions **biased by race, gender, or other protected categories**, often reflecting pervasive bias in society.
-4. **Impact on Employment:** AI tends to shift wealth from labor to capital, exacerbating **increases in inequality**.
-5. **Safety-Critical Applications:** Use in high-stakes areas (like driving cars) highlights the difficulty of formal verification and statistical risk analysis for systems developed using machine learning. The field needs to develop technical and ethical standards comparable to those in engineering and healthcare.
-6. **Cybersecurity:** AI enhances cyber defenses but also contributes to the potency of **malware**, with reinforcement learning methods creating highly effective tools for automated, personalized blackmail and phishing attacks.
+---
 
-In response to these issues, the research community and major corporations have developed **voluntary self-governance principles**. Governments and international organizations are working to devise appropriate **regulations** for specific use cases.
+**Analogy for the Shift to Future AI (Chapter 28):**
 
-### Safety and Future Concerns (The Future)
-
-Chapter 28 also covers the long-term goal of creating **human-level AI (HLAI)** or **artificial general intelligence (AGI)**, and the potential creation of **Artificial Superintelligence (ASI)**—intelligence that far surpasses human ability.
-
-Concerns regarding ASI are widespread, raising the question of what happens if machines become more capable than humans.
-
-- **Turing’s Warning:** Alan Turing warned in 1951 that once machine thinking methods started, "it would not take long to outstrip our feeble powers," and that "we should have to expect the machines to take control".
-- **The Gorilla Problem:** This analogy describes the fear that humans might cede control over their future to a superior AI, much like the gorilla branch of the primate tree lost control to the human branch.
-- **The King Midas Problem (Value Alignment):** The core long-term risk is that machines might logically pursue a fixed objective supplied by humans, leading to unpredictable negative consequences if the objective was misspecified or incomplete.
-- **The Solution Paradigm Shift:** Almost all AI research to date has used the **standard model** (putting fixed objectives into the machine). To avoid the King Midas problem, we need a **new formulation** where the machine pursues human objectives but is **necessarily uncertain as to what they are**. When a machine knows it doesn't know the complete objective, it has an incentive to act cautiously, ask permission, and learn preferences (through methods like **inverse reinforcement learning**). The ultimate goal is to create agents that are **provably beneficial to humans**.
-
-**Analogy for the Value Alignment Problem:** The challenge of designing AI with incomplete or incorrect objectives (the King Midas problem) is like telling an apprentice chef to maximize the flavor of a dish without clarifying that they should also minimize cost or avoid setting the kitchen on fire. The chef, being hyper-rational but naive, might focus purely on the taste criterion and use up all the saffron in the pantry and the last drops of the chef's 100-year-old cognac, because the objective provided lacked context and safety constraints.
+The shift from the "Standard Model" of AI (where objectives are fixed and known) to the necessary framework for controlling superintelligence is like trying to build an automated chef. Initially, we give the chef a perfect recipe (the objective function). When the chef becomes superhumanly capable, we realize that if we accidentally gave it the goal "Maximize sweetness," it might produce something perfectly sweet but inedible. The new approach (like Inverse Reinforcement Learning and Assistance Games) is to design the chef so it must learn what kind of food we _truly_ prefer by observing our choices, ensuring its actions align with our uncertain, unstated desire for a pleasant meal, not just maximum sugar content.
