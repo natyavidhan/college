@@ -1,35 +1,57 @@
-gcd(X, 0, X).
-gcd(X, Y, G) :-
-    Y > 0, X > 0,
-    R is X mod Y,
-    gcd(Y, R, G).
+% FACTS
+parent(pam, bob).
+parent(tom, bob).
+parent(tom, liz).
+parent(bob, pat).
+parent(bob, ann).
+parent(pat, jim).
+parent(liz, rahul).
 
-mul(0, _, 0).
-mul(_, 0, 0).
-mul(X, 1, X).
-mul(1, Y, Y).
-mul(X, Y, Z) :-
-    X > 0, Y > 0,
-    X1 is X - 1,
-    mul(X1, Y, Z1),
-    Z is Z1 + Y.
+male(bob).
+male(tom).
+male(jim).
+male(rahul).
 
-pow(_, 0, 1).
-pow(1, _, 1).
-pow(X, 0, 1).
-pow(X, 1, X).
-pow(X, Y, Z) :-
-    Y > 1,
-    Y1 is Y - 1,
-    pow(X, Y1, Z1),
-    Z is Z1 * X.
+female(pat).
+female(pam).
+female(liz).
+female(ann).
 
-fib(0, 0).
-fib(1, 1).
-fib(N, F) :-
-    N > 1,
-    N1 is N - 1,
-    N2 is N - 2,
-    fib(N1, F1),
-    fib(N2, F2),
-    F is F1 + F2.
+% RULES
+grandparent(X, Z) :-
+    parent(X, Y),
+    parent(Y, Z).
+
+father(X, Y) :-
+    male(X),
+    parent(X, Y).
+
+mother(X, Y) :-
+    female(X),
+    parent(X, Y).
+
+sibling(X, Y) :-
+    parent(Z, X),
+    parent(Z, Y),
+    X \= Y.
+
+brother(X, Y) :-
+    male(X),
+    sibling(X, Y).
+
+sister(X, Y) :-
+    female(X),
+    sibling(X, Y).
+
+uncle(X, Y) :-
+    brother(X, Z),
+    parent(Z, Y).
+
+aunt(X, Y) :-
+    sister(X, Z),
+    parent(Z, Y).
+
+cousin(X, Y) :-
+    parent(P1, X),
+    parent(P2, Y),
+    sibling(P1, P2).
