@@ -1,0 +1,10 @@
+# Data Structures Papers
+- [bsc-3-sem-data-structures-1374-2022.pdf](DS/pyqs/bsc-3-sem-data-structures-1374-2022.pdf)
+- [bsc-3-sem-data-structures-1527-2024.pdf](DS/pyqs/bsc-3-sem-data-structures-1527-2024.pdf)
+- [bsc-3-sem-data-structures-2046-2016.pdf](DS/pyqs/bsc-3-sem-data-structures-2046-2016.pdf)
+- [bsc-3-sem-data-structures-32341301-2020.pdf](DS/pyqs/bsc-3-sem-data-structures-32341301-2020.pdf)
+- [bsc-3-sem-data-structures-32341301-2021.pdf](DS/pyqs/bsc-3-sem-data-structures-32341301-2021.pdf)
+- [bsc-3-sem-data-structures-4343-2024.pdf](DS/pyqs/bsc-3-sem-data-structures-4343-2024.pdf)
+- [bsc-3-sem-data-structures-48-2018.pdf](DS/pyqs/bsc-3-sem-data-structures-48-2018.pdf)
+- [bsc-3-sem-data-structures-6504-2017.pdf](DS/pyqs/bsc-3-sem-data-structures-6504-2017.pdf)
+- [bsc-3-sem-data-structures-7403-2019.pdf](DS/pyqs/bsc-3-sem-data-structures-7403-2019.pdf)
