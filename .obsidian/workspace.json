@@ -25,10 +25,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "sem 3/AI/Drawing 2025-11-19 04.13.05.excalidraw.md"
+                "file": "sem 3/Drawing 2025-09-20 04.06.31.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2025-11-19 04.13.05.excalidraw"
+              "title": "Drawing 2025-09-20 04.06.31.excalidraw"
             }
           },
           {
@@ -228,11 +228,12 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "eccd19718d7b195f",
+  "active": "9744e853c9a9b52b",
   "lastOpenFiles": [
-    "sem 3/AI/Practicals/sheet.pl",
-    "sem 3/DSE/pyqs/DM 1 June 2025 Scanned_20251105-1406.pdf",
+    "sem 3/DS/list-queue-stack-ques.md",
     "sem 3/AI/Drawing 2025-11-19 04.13.05.excalidraw.md",
+    "sem 3/DSE/pyqs/DM 1 June 2025 Scanned_20251105-1406.pdf",
+    "sem 3/AI/Practicals/sheet.pl",
     "sem 3/DSE/5 Classification.md",
     "sem 3/DSE/5 Classification/Relevant PYQs.md",
     "sem 3/DSE/5 Classification/5 Classification.md",
@@ -258,7 +259,6 @@
     "sem 3/DSE/1 Introduction to Data Mining.md",
     "sem 3/DSE/2 Data Preprocessing.md",
     "sem 3/AI/Unit 2/Unit 2 Problem Solving and Searching Techniques.md",
-    "sem 3/DS/Cormen_4ed.pdf",
     "sem 3/DS/notes/Recurrence Relations.md",
     "sem 3/AI/Unit 2/Exercises.md",
     "sem 3/AI/Unit 2/CSP Example.md",
