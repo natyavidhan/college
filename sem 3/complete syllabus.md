@@ -9,8 +9,6 @@ kanban-plugin: board
 - [ ] [[1 Introduction to Data Mining]]
 - [ ] [[2 Data Preprocessing]]
 - [ ] [[3 Cluster Analysis]]
-- [ ] [[4 Association Rule Mining]]
-- [ ] [[5 Classification]]
 
 
 ## DS
@@ -23,7 +21,6 @@ kanban-plugin: board
 - [ ] Queues
 - [ ] BST
 - [ ] AVL Trees
-- [ ] Recursive Relations
 - [ ] Binary Heap
 
 
@@ -48,11 +45,14 @@ kanban-plugin: board
 ## Doing
 
 - [ ] [[Unit 1 AI Introduction]]
+- [ ] [[5 Classification]]
+- [ ] Recursive Relations
 
 
 ## Done
 
 **Complete**
+- [x] [[4 Association Rule Mining]]
 
 
 

@@ -190,12 +190,12 @@ public:
         } else {
             val = h2;
         }
-        Node *p;
-        while (p->next)
+        while (val)
         {
-            p = p->next;
+            new_list.add_end(val->value);
+            val = val->next;
         }
-        p->next = val;
+        // p->next = val;
         return new_list;
     }
 };

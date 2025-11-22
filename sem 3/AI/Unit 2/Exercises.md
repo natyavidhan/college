@@ -2,17 +2,17 @@
 
 This includes fundamentals of agents, search strategies, state space formulation, and example problems.
 
-|Question Paper|Q. No.|Question Text|Relevant Topic(s)|
-|:-:|:-:|:--|:--|
-|798 (2017)|1(g)(i)|Define the following terms: **State Space Search**.|R&N 3.1/3.2 (Problem-Solving Agents, Example Problems).|
-|798 (2017)|1(c)|List out various steps for solving a **problem using search state space strategy**.|R&N 3.1/3.3 (Problem-Solving Agents, Search Algorithms).|
-|798 (2017)|1(j)|What should be the features related to good performance of a **rational agent**?.|R&N 3.1 (Problem-Solving Agents are Rational Agents).|
-|4506 (2023)|1(a)|What do you understand by the term **Rational Agent**?.|R&N 3.1 (Problem-Solving Agents are Rational Agents).|
-|4506 (2023)|4(c)|Give **PEAS description for Taxi Driver Agent**.|R&N 3.1 (Agent formulation/Problem-Solving Agents).|
-|4506 (2023)|2(a)|Describe the **water-jug problem**. Also give a suitable **state space representation** for this problem.|R&N 3.2 (Example Problems); Patterson 9.3 (Examples of Search Problems).|
-|6515 (2019)|6(c)|You are given two jugs of capacity 4-gallon and 3-gallon... Write down solution by showing all intermediate states (Water-Jug Problem).|R&N 3.2 (Example Problems); Patterson 9.3 (Examples of Search Problems).|
-|6632 (2012)|5(a)|Describe and give the **state space representation** for the **water-jug problem**.|R&N 3.2 (Example Problems); Patterson 9.3 (Examples of Search Problems).|
-|2211 (2021)|7(b)|Describe **Water-Jug problem** and give its suitable state space representation.|R&N 3.2 (Example Problems); Patterson 9.3 (Examples of Search Problems).|
+| Question Paper | Q. No.  | Question Text                                                                                                                           | Relevant Topic(s)                                                        |
+| :------------: | :-----: | :-------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------- |
+|   798 (2017)   | 1(g)(i) | Define the following terms: **State Space Search**.                                                                                     | R&N 3.1/3.2 (Problem-Solving Agents, Example Problems).                  |
+|   798 (2017)   |  1(c)   | List out various steps for solving a **problem using search state space strategy**.                                                     | R&N 3.1/3.3 (Problem-Solving Agents, Search Algorithms).                 |
+|   798 (2017)   |  1(j)   | What should be the features related to good performance of a **rational agent**?.                                                       | R&N 3.1 (Problem-Solving Agents are Rational Agents).                    |
+|  4506 (2023)   |  1(a)   | What do you understand by the term **Rational Agent**?.                                                                                 | R&N 3.1 (Problem-Solving Agents are Rational Agents).                    |
+|  4506 (2023)   |  4(c)   | Give **PEAS description for Taxi Driver Agent**.                                                                                        | R&N 3.1 (Agent formulation/Problem-Solving Agents).                      |
+|  4506 (2023)   |  2(a)   | Describe the **water-jug problem**. Also give a suitable **state space representation** for this problem.                               | R&N 3.2 (Example Problems); Patterson 9.3 (Examples of Search Problems). |
+|  6515 (2019)   |  6(c)   | You are given two jugs of capacity 4-gallon and 3-gallon... Write down solution by showing all intermediate states (Water-Jug Problem). | R&N 3.2 (Example Problems); Patterson 9.3 (Examples of Search Problems). |
+|  6632 (2012)   |  5(a)   | Describe and give the **state space representation** for the **water-jug problem**.                                                     | R&N 3.2 (Example Problems); Patterson 9.3 (Examples of Search Problems). |
+|  2211 (2021)   |  7(b)   | Describe **Water-Jug problem** and give its suitable state space representation.                                                        | R&N 3.2 (Example Problems); Patterson 9.3 (Examples of Search Problems). |
 
 #### Chapter 5: Constraint Satisfaction Problems (R&N 5.1)
 
