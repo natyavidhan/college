@@ -18,23 +18,23 @@ This includes fundamentals of agents, search strategies, state space formulation
 
 This section focuses on defining CSPs.
 
-|Question Paper|Q. No.|Question Text|Relevant Topic(s)|
-|:-:|:-:|:--|:--|
-|4506 (2023)|5(c)|Solve the following **crypt arithmetic problem** using **constraint satisfaction**.|R&N 5.1 (Defining CSPs).|
-|6515 (2019)|3(a)|Using **constraint satisfaction algorithm**, solve the following crypt arithmetic problem.|R&N 5.1 (Defining CSPs).|
+| Question Paper | Q. No. | Question Text                                                                                               | Relevant Topic(s)        |
+| :------------: | :----: | :---------------------------------------------------------------------------------------------------------- | :----------------------- |
+|  4506 (2023)   |  5(c)  | Solve the following **crypt arithmetic problem** using **constraint satisfaction**. ODD + ODD = EVEN        | R&N 5.1 (Defining CSPs). |
+|  6515 (2019)   |  3(a)  | Using **constraint satisfaction algorithm**, solve the following crypt arithmetic problem. TWO + TWO = FOUR | R&N 5.1 (Defining CSPs). |
 
 #### Chapter 6: Adversarial Search and Games (R&N 6.1, 6.2)
 
 This covers game theory and optimal decisions, including Minimax.
 
-|Question Paper|Q. No.|Question Text|Relevant Topic(s)|
-|:-:|:-:|:--|:--|
-|798 (2017)|4(c)|In the following two-ply **game tree**, the terminal nodes show the utility values computed by the utility function. Use the **Minimax algorithm** to compute the utility values for other nodes in the given game tree.|R&N 6.2 (Optimal Decisions in Games).|
-|1108 (2022)|1(c)|In the following two-ply game tree, the terminal nodes show the utility values computed by the utility function. Use the **Minimax algorithm** to compute the utility values for other nodes in the given game tree.|R&N 6.2 (Optimal Decisions in Games).|
-|798 (2017)|4(b)|Explain the utility of **alpha and beta cuts** in **Minimax problem**.|R&N 6.2 (Optimal Decisions in Games) / R&N 6.3 (Heuristic Alpha–Beta Tree Search).|
-|1108 (2022)|6(b)|What are **alpha and beta cutoffs**? How **alpha-beta pruning** is used to improve the efficiency of Minimax procedure?.|R&N 6.2/6.3 (Optimal Decisions/Alpha-Beta Pruning).|
-|2211 (2021)|6(b)|What do you understand by **alpha-beta cutoffs**. Describe the method of **Alpha-beta pruning** using these cutoffs with the help of an example.|R&N 6.2/6.3 (Optimal Decisions/Alpha-Beta Pruning).|
-|2926 (2024)|7(a)|Consider the following game tree... Which nodes will be pruned according to the **alpha-beta pruning procedure**? Give justification of each.|R&N 6.2/6.3 (Optimal Decisions/Alpha-Beta Pruning).|
+| Question Paper | Q. No. | Question Text                                                                                                                                                                                                            | Relevant Topic(s)                                                                  |
+| :------------: | :----: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
+|   798 (2017)   |  4(c)  | In the following two-ply **game tree**, the terminal nodes show the utility values computed by the utility function. Use the **Minimax algorithm** to compute the utility values for other nodes in the given game tree. | R&N 6.2 (Optimal Decisions in Games).                                              |
+|  1108 (2022)   |  1(c)  | In the following two-ply game tree, the terminal nodes show the utility values computed by the utility function. Use the **Minimax algorithm** to compute the utility values for other nodes in the given game tree.     | R&N 6.2 (Optimal Decisions in Games).                                              |
+|   798 (2017)   |  4(b)  | Explain the utility of **alpha and beta cuts** in **Minimax problem**.                                                                                                                                                   | R&N 6.2 (Optimal Decisions in Games) / R&N 6.3 (Heuristic Alpha–Beta Tree Search). |
+|  1108 (2022)   |  6(b)  | What are **alpha and beta cutoffs**? How **alpha-beta pruning** is used to improve the efficiency of Minimax procedure?.                                                                                                 | R&N 6.2/6.3 (Optimal Decisions/Alpha-Beta Pruning).                                |
+|  2211 (2021)   |  6(b)  | What do you understand by **alpha-beta cutoffs**. Describe the method of **Alpha-beta pruning** using these cutoffs with the help of an example.                                                                         | R&N 6.2/6.3 (Optimal Decisions/Alpha-Beta Pruning).                                |
+|  2926 (2024)   |  7(a)  | Consider the following game tree... Which nodes will be pruned according to the **alpha-beta pruning procedure**? Give justification of each.                                                                            | R&N 6.2/6.3 (Optimal Decisions/Alpha-Beta Pruning).                                |
 
 #### Chapter 9: Search and Control Strategies (Patterson 9.1–9.4, 9.5*)
 
