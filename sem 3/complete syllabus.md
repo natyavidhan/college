@@ -26,7 +26,7 @@ kanban-plugin: board
 
 ## AI
 
-- [ ] [[Unit 2 Problem Solving and Searching Techniques]]
+- [ ] [[Unit 1 AI Introduction]]
 - [ ] [[4. Formalized Symbolic Logics]]
 - [ ] [[7. Structured Knowledge]]
 - [ ] [[Unit 4 Natural Language Porcessing]]
@@ -44,8 +44,7 @@ kanban-plugin: board
 
 ## Doing
 
-- [ ] [[Unit 1 AI Introduction]]
-- [ ] [[5 Classification]]
+- [ ] [[Unit 2 Problem Solving and Searching Techniques]]
 - [ ] Recursive Relations
 
 
@@ -53,6 +52,7 @@ kanban-plugin: board
 
 **Complete**
 - [x] [[4 Association Rule Mining]]
+- [x] [[5 Classification]]
 
 
 

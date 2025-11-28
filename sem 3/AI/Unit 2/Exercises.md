@@ -42,11 +42,11 @@ This covers search preliminaries, uninformed search (excluding depth-first itera
 
 ##### Uninformed Search (Patterson 9.4)
 
-|Question Paper|Q. No.|Question Text|Relevant Topic(s)|
-|:-:|:-:|:--|:--|
-|6632 (2012)|1(b)|Compare and contrast **Depth first search** and **Breadth first search**.|Patterson 9.4 (Uninformed Search); R&N 3.4.|
-|6632 (2012)|9(i)|Write short note on the following: **Uninformed Search**.|Patterson 9.4 (Uninformed Search).|
-|6515 (2019)|1(d)|Differentiate between **breadth first search** and **best first search**.|Patterson 9.4 (Breadth First) and 9.5 (Best First); R&N 3.4, 3.5.|
+| Question Paper | Q. No. | Question Text                                                             | Relevant Topic(s)                                                 |
+| :------------: | :----: | :------------------------------------------------------------------------ | :---------------------------------------------------------------- |
+|  6632 (2012)   |  1(b)  | Compare and contrast **Depth first search** and **Breadth first search**. | Patterson 9.4 (Uninformed Search); R&N 3.4.                       |
+|  6632 (2012)   |  9(i)  | Write short note on the following: **Uninformed Search**.                 | Patterson 9.4 (Uninformed Search).                                |
+|  6515 (2019)   |  1(d)  | Differentiate between **breadth first search** and **best first search**. | Patterson 9.4 (Breadth First) and 9.5 (Best First); R&N 3.4, 3.5. |
 
 ##### Informed/Heuristic Search (Patterson 9.5)
 
