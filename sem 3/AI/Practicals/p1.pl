@@ -55,3 +55,39 @@ cousin(X, Y) :-
     parent(P1, X),
     parent(P2, Y),
     sibling(P1, P2).
+
+child(X, Y) :- 
+    parent(Y, X).
+
+son(X, Y) :- 
+    male(X), child(X, Y).
+
+daughter(X, Y) :- 
+    female(X), child(X, Y).
+
+grandfather(X, Y) :- 
+    male(X), grandparent(X, Y).
+
+grandmother(X, Y) :- 
+    female(X), grandparent(X, Y).
+
+grandson(X, Y) :- 
+    male(X), grandparent(Y, X).
+
+granddaughter(X, Y) :- 
+    female(X), grandparent(Y, X).
+
+nephew(X, Y) :- 
+    male(X), parent(P, X), sibling(P, Y).
+
+niece(X, Y) :- 
+    female(X), parent(P, X), sibling(P, Y).
+
+ancestor(X, Y) :- 
+    parent(X, Y).
+
+ancestor(X, Y) :- 
+    parent(X, Z), ancestor(Z, Y).
+
+descendant(X, Y) :- 
+    ancestor(Y, X).
