@@ -1,0 +1,32 @@
+{% extends 'shop/base.html' %}
+
+{% block title %}Order Complete{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1 class="text-success">✓ Order Placed Successfully!</h1>
+    <hr>
+    <div class="card mx-auto" style="max-width: 500px;">
+        <div class="card-body">
+            <h5 class="card-title">Order #{{ order.id }}</h5>
+            <p class="card-text">
+                <strong>Name:</strong> {{ order.full_name }}<br>
+                <strong>Email:</strong> {{ order.email }}<br>
+                <strong>Address:</strong><br>{{ order.address|linebreaksbr }}
+            </p>
+            <hr>
+            <h6>Items Ordered:</h6>
+            <ul class="list-group list-group-flush mb-3">
+                {% for item in order.items.all %}
+                    <li class="list-group-item d-flex justify-content-between">
+                        <span>{{ item.product.name }} × {{ item.quantity }}</span>
+                        <span>${{ item.get_total }}</span>
+                    </li>
+                {% endfor %}
+            </ul>
+            <p class="fw-bold">Total: ${{ order.total }}</p>
+        </div>
+    </div>
+    <a href="{% url 'shop:product_list' %}" class="btn btn-primary mt-4">Continue Shopping</a>
+</div>
+{% endblock %}

@@ -1,0 +1,56 @@
+{% extends 'shop/base.html' %}
+
+{% block title %}{{ product.name }}{% endblock %}
+
+{% block content %}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{% url 'shop:product_list' %}">Products</a></li>
+        <li class="breadcrumb-item"><a href="{{ product.category.get_absolute_url }}">{{ product.category.name }}</a></li>
+        <li class="breadcrumb-item active">{{ product.name }}</li>
+    </ol>
+</nav>
+
+<div class="row">
+    <div class="col-md-8">
+        <h1>{{ product.name }}</h1>
+        <p class="text-muted">Category: {{ product.category.name }}</p>
+        <hr>
+        <h3 class="text-primary">${{ product.price }}</h3>
+        <p>
+            {% if product.inventory > 0 %}
+                <span class="badge bg-success">In Stock ({{ product.inventory }} available)</span>
+            {% else %}
+                <span class="badge bg-danger">Out of Stock</span>
+            {% endif %}
+        </p>
+        <h5>Description</h5>
+        <p>{{ product.description|default:"No description available." }}</p>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Add to Cart</h5>
+                {% if product.inventory > 0 %}
+                    <form action="{% url 'shop:cart_add' product.id %}" method="post">
+                        {% csrf_token %}
+                        <div class="mb-3">
+                            <label for="quantity" class="form-label">Quantity</label>
+                            <input type="number" class="form-control" name="quantity" 
+                                   id="quantity" value="1" min="1" max="{{ product.inventory }}">
+                        </div>
+                        <button type="submit" class="btn btn-success w-100">Add to Cart</button>
+                    </form>
+                {% else %}
+                    <p class="text-danger">This product is currently out of stock.</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mt-4">
+    <a href="{% url 'shop:product_list' %}" class="btn btn-outline-secondary">← Back to Products</a>
+</div>
+{% endblock %}

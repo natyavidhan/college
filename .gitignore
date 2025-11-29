@@ -4,3 +4,5 @@
 *.out
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+
+__pycache__/
