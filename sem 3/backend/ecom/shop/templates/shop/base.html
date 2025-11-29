@@ -6,12 +6,305 @@
     <title>{% block title %}Shop{% endblock %}</title>
     <!-- Bootstrap CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --secondary: #64748b;
+            --accent: #0ea5e9;
+            --success: #10b981;
+            --danger: #ef4444;
+            --light: #f8fafc;
+            --dark: #0f172a;
+            --border: #e2e8f0;
+            --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+            --radius: 0.5rem;
+            --radius-lg: 0.75rem;
+        }
+        
+        * { box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        
+        /* Navbar */
+        .navbar {
+            background: var(--dark) !important;
+            box-shadow: var(--shadow-md);
+            padding: 1rem 0;
+        }
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.4rem;
+            letter-spacing: -0.5px;
+        }
+        .nav-link {
+            font-weight: 500;
+            padding: 0.5rem 1rem !important;
+            border-radius: var(--radius);
+            transition: all 0.2s ease;
+        }
+        .nav-link:hover {
+            background: rgba(255,255,255,0.1);
+        }
+        .badge {
+            font-weight: 600;
+            padding: 0.35em 0.65em;
+        }
+        
+        /* Cards */
+        .card {
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow);
+            transition: all 0.2s ease;
+            overflow: hidden;
+        }
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
+        }
+        .card-header {
+            background: var(--light);
+            border-bottom: 1px solid var(--border);
+            font-weight: 600;
+            padding: 1rem 1.25rem;
+        }
+        .card-body { padding: 1.25rem; }
+        .card-footer {
+            background: transparent;
+            border-top: 1px solid var(--border);
+            padding: 1rem 1.25rem;
+        }
+        .card-title {
+            font-weight: 600;
+            color: var(--dark);
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Buttons */
+        .btn {
+            font-weight: 500;
+            padding: 0.5rem 1.25rem;
+            border-radius: var(--radius);
+            transition: all 0.2s ease;
+            border: none;
+        }
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-1px);
+            box-shadow: var(--shadow);
+        }
+        .btn-success {
+            background: var(--success);
+        }
+        .btn-success:hover {
+            background: #059669;
+            transform: translateY(-1px);
+        }
+        .btn-danger {
+            background: var(--danger);
+        }
+        .btn-outline-secondary {
+            border: 1px solid var(--border);
+            color: var(--secondary);
+        }
+        .btn-outline-secondary:hover {
+            background: var(--light);
+            border-color: var(--secondary);
+        }
+        .btn-outline-primary {
+            border: 1px solid var(--primary);
+            color: var(--primary);
+        }
+        .btn-outline-primary:hover {
+            background: var(--primary);
+            color: white;
+        }
+        
+        /* Forms */
+        .form-control {
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 0.625rem 0.875rem;
+            transition: all 0.2s ease;
+        }
+        .form-control:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+        .form-label {
+            font-weight: 500;
+            color: var(--dark);
+            margin-bottom: 0.375rem;
+        }
+        
+        /* Tables */
+        .table {
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+        }
+        .table thead th {
+            background: var(--light);
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+            color: var(--secondary);
+            border-bottom: 2px solid var(--border);
+            padding: 1rem;
+        }
+        .table td {
+            padding: 1rem;
+            vertical-align: middle;
+        }
+        .table-striped tbody tr:nth-of-type(odd) {
+            background: rgba(248, 250, 252, 0.5);
+        }
+        
+        /* List groups */
+        .list-group-item {
+            border: none;
+            border-bottom: 1px solid var(--border);
+            padding: 0.875rem 1.25rem;
+            transition: all 0.15s ease;
+        }
+        .list-group-item:last-child { border-bottom: none; }
+        .list-group-item a {
+            color: var(--dark);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .list-group-item:hover {
+            background: var(--light);
+        }
+        .list-group-item.active {
+            background: var(--primary);
+            border-color: var(--primary);
+        }
+        .list-group-item.active a { color: white; }
+        
+        /* Alerts */
+        .alert {
+            border: none;
+            border-radius: var(--radius);
+            padding: 1rem 1.25rem;
+            font-weight: 500;
+        }
+        .alert-success {
+            background: #ecfdf5;
+            color: #065f46;
+        }
+        .alert-warning {
+            background: #fffbeb;
+            color: #92400e;
+        }
+        .alert-danger {
+            background: #fef2f2;
+            color: #991b1b;
+        }
+        .alert-info {
+            background: #eff6ff;
+            color: #1e40af;
+        }
+        
+        /* Badges */
+        .badge.bg-success {
+            background: var(--success) !important;
+        }
+        .badge.bg-danger {
+            background: var(--danger) !important;
+        }
+        .badge.bg-secondary {
+            background: var(--secondary) !important;
+        }
+        
+        /* Breadcrumb */
+        .breadcrumb {
+            background: transparent;
+            padding: 0;
+            margin-bottom: 1.5rem;
+        }
+        .breadcrumb-item a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        .breadcrumb-item.active {
+            color: var(--secondary);
+        }
+        
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 600;
+            color: var(--dark);
+            letter-spacing: -0.025em;
+        }
+        h1 { font-size: 2rem; }
+        h2 { font-size: 1.5rem; }
+        
+        /* Links */
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: color 0.15s ease;
+        }
+        a:hover {
+            color: var(--primary-dark);
+        }
+        
+        /* Price styling */
+        .text-primary { color: var(--primary) !important; }
+        .fw-bold { font-weight: 600 !important; }
+        
+        /* Page layout */
+        .container { max-width: 1200px; }
+        hr {
+            border-color: var(--border);
+            opacity: 1;
+            margin: 1.5rem 0;
+        }
+        
+        /* Product grid */
+        .row-cols-md-3 .col .card {
+            height: 100%;
+        }
+        
+        /* Quantity input */
+        input[type="number"] {
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 0.375rem 0.5rem;
+            text-align: center;
+        }
+        
+        /* Footer spacing */
+        body { min-height: 100vh; }
+        
+        /* Smooth transitions */
+        * {
+            transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 150ms;
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
         <div class="container">
-            <a class="navbar-brand" href="{% url 'shop:product_list' %}">🛒 Shop</a>
+            <a class="navbar-brand" href="{% url 'shop:product_list' %}">🛒 Amooozon</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>

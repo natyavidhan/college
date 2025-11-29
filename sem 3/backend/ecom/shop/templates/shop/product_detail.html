@@ -13,8 +13,8 @@
 
 <div class="row">
     <div class="col-md-8">
-        <h1>{{ product.name }}</h1>
-        <p class="text-muted">Category: {{ product.category.name }}</p>
+        <span class="text-uppercase small text-muted" style="font-size: 0.75rem; letter-spacing: 0.05em;">{{ product.category.name }}</span>
+        <h1 class="mt-1 mb-3">{{ product.name }}</h1>
         <hr>
         <h3 class="text-primary">${{ product.price }}</h3>
         <p>
