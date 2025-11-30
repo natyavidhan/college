@@ -3,9 +3,6 @@
 using namespace std;
 
 template <typename T>
-class AVLTree;
-
-template <typename T>
 class Node {
     T val;
     Node* left;
@@ -13,7 +10,8 @@ class Node {
     int height;
 public:
     Node(T v): val(v), left(0), right(0), height(1) {}; 
-    friend class AVLTree<T>;
+    template <typename u>
+    friend class AVLTree;
 };
 
 template <typename T>
@@ -117,4 +115,5 @@ int main() {
     for (int num : nums) {
         tree.insert(num);
     }
+    tree.search(25);
 }
