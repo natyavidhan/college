@@ -1,10 +1,14 @@
-processes = []
+processes = [
+    {"pid": 1, "arrival_time": 0, "burst_time": 2},
+    {"pid": 2, "arrival_time": 1, "burst_time": 4},
+    {"pid": 3, "arrival_time": 3, "burst_time": 1},
+]
 
-n = int(input("Enter Number of Processes: "))
-for i in range(n):
-    data = input(f"Enter AT and BT (space separated): ")
-    at, bt = map(int, data.split())
-    processes.append({"pid": i + 1, "arrival_time": at, "burst_time": bt})
+# n = int(input("Enter Number of Processes: "))
+# for i in range(n):
+#     data = input(f"Enter AT and BT (space separated): ")
+#     at, bt = map(int, data.split())
+#     processes.append({"pid": i + 1, "arrival_time": at, "burst_time": bt})
     
 queue = []
 time = 0
@@ -13,6 +17,8 @@ gantt_chart = []
 remaining_processes = processes.copy()
 current_process = None
 start_time = 0
+
+n = len(processes)
 
 while completed < n:
     for process in list(remaining_processes):
