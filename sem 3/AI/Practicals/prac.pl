@@ -44,3 +44,59 @@ multi(N1, N2, R) :-
     NN2 is N2 - 1,
     multi(N1, NN2, R1),
     R is R1 + N1.
+
+memb(X, [X|_]) :- !.
+memb(X, [_|T]) :-
+    memb(X, T).
+
+
+sumlist([], 0) :- !.
+sumlist([H|T], S) :-
+    sumlist(T, S1),
+    S is H + S1.
+
+
+evenlength([H|T]) :-
+    evenlength([H|T], S),
+    0 is S mod 2.
+
+evenlength([_], 1) :- !.
+evenlength([_|T], S) :-
+    evenlength(T, S1),
+    S is 1 + S1.
+
+
+oddlength([H|T]) :-
+    oddlength([H|T], S),
+    1 is S mod 2.
+
+oddlength([_], 1) :- !.
+oddlength([_|T], S) :-
+    oddlength(T, S1),
+    S is 1 + S1.
+
+maxlist([X], X) :- !.
+maxlist([H|T], M) :-
+    maxlist(T, M1),
+    (H > M1 -> M = H; M = M1).
+
+
+insert(I, 1, L, [I|L]) :- !.
+insert(I, N, [H|T], [H|R]) :-
+    N1 is N - 1,
+    insert(I, N1, T, R).
+
+
+delete(1, [_|T], T):- !.
+delete(N, [H|T], [H|R]) :-
+    N1 is N - 1,
+    delete(N1, T, R).
+    
+% GCD
+
+gcd(X, 0, X) :- X > 0, !.
+gcd(X, Y, G) :-
+    Y > 0,
+    R is X mod Y,
+    gcd(Y, R, G).
+
