@@ -63,18 +63,18 @@ Here is the aggressively merged and normalized database of historical PYQs, grou
 
 # 2. FREQUENCY-RANKED TOPICS & TIER CLASSIFICATION
 
-|Rank|Topic|Tier|Frequency|Marks ROI|Exam Prob.|
-|:--|:--|:--|:--|:--|:--|
-|**1**|**Amortized Analysis (Aggregate Method)**|**A**|100%|Very High|99%|
-|**2**|**Bipartite Graphs & Topological Sort**|**A**|90%|High|95%|
-|**3**|**0-1 Knapsack / Subset Sum (DP)**|**A**|85%|Very High|95%|
-|**4**|**MST Differences & Edge Weight Changes**|**A**|80%|High|90%|
-|**5**|**Greedy Counter-Examples (Scheduling/Knapsack)**|**A**|80%|High|90%|
-|**6**|**Decision Tree Lower Bounds ($\Omega(n \log n)$)**|**B**|60%|Medium|75%|
-|**7**|**Bucket/Radix/Count Sort Constraints**|**B**|60%|Medium|70%|
-|**8**|**Min/Max D&C ($3n/2$ comparisons)**|**B**|50%|Medium|60%|
-|**9**|**Red-Black Tree vs BST Times**|**C**|40%|Low|40%|
-|**10**|**P vs NP Reductions**|**C**|30%|Low|30%|
+| Rank   | Topic                                               | Tier  | Frequency | Marks ROI | Exam Prob. |
+| :----- | :-------------------------------------------------- | :---- | :-------- | :-------- | :--------- |
+| **1**  | **Amortized Analysis (Aggregate Method)**           | **A** | 100%      | Very High | 99%        |
+| **2**  | **Bipartite Graphs & Topological Sort**             | **A** | 90%       | High      | 95%        |
+| **3**  | **0-1 Knapsack / Subset Sum (DP)**                  | **A** | 85%       | Very High | 95%        |
+| **4**  | **MST Differences & Edge Weight Changes**           | **A** | 80%       | High      | 90%        |
+| **5**  | **Greedy Counter-Examples (Scheduling/Knapsack)**   | **A** | 80%       | High      | 90%        |
+| **6**  | **Decision Tree Lower Bounds ($\Omega(n \log n)$)** | **B** | 60%       | Medium    | 75%        |
+| **7**  | **Bucket/Radix/Count Sort Constraints**             | **B** | 60%       | Medium    | 70%        |
+| **8**  | **Min/Max D&C ($3n/2$ comparisons)**                | **B** | 50%       | Medium    | 60%        |
+| **9**  | **Red-Black Tree vs BST Times**                     | **C** | 40%       | Low       | 40%        |
+| **10** | **P vs NP Reductions**                              | **C** | 30%       | Low       | 30%        |
 
 ---
 

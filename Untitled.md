@@ -1,78 +1,15 @@
-Ollama, Bitwarden, uptimekuma, SearXNG, GitTea, immich, qBittorrent, local copy of wikipedia, soulseek, navidrome, jellyfin, a NAS, a S3 bucket, and all kinds of DBs (mongo, postgress and redis)
+ 1MG Tata Brain Formula With Vitamin B Complex, L-Tyrosine, L-Theanine, Brahmi, Ginkgo And Pine Bark Extract Capsule Helps In Improving Memory And Concentration For Unisex (Pack Of 60 Capsules)
 
-ai.home {
-    reverse_proxy 192.168.1.110:3000
-}
-
-home.home {
-    reverse_proxy 192.168.1.110:3001
-}
-
-uptime.home {
-    reverse_proxy 192.168.1.110:3002
-}
-
-vault.home {
-    reverse_proxy 192.168.1.110:3004
-}
-
-nextcloud.home {
-    reverse_proxy 192.168.1.110:8081
-}
-
-traccar.home {
-    reverse_proxy 192.168.1.110:8082
-}
-
-search.home {
-    reverse_proxy 192.168.1.110:8088
-}
-
-portainer.home {
-    reverse_proxy 192.168.1.110:9443 {
-        transport http {
-            tls_insecure_skip_verify
-        }
-    }
-}
-
-
-# =========================
-# AGENT NODE (192.168.1.111)
-# =========================
-
-git.home {
-    reverse_proxy 192.168.1.111:3000
-}
-
-photos.home {
-    reverse_proxy 192.168.1.111:2283
-}
-
-torrent.home {
-    reverse_proxy 192.168.1.111:8080
-}
-
-wiki.home {
-    reverse_proxy 192.168.1.111:8083
-}
-
-soulseek.home {
-    reverse_proxy 192.168.1.111:5030
-}
-
-music.home {
-    reverse_proxy 192.168.1.111:4533
-}
-
-lidarr.home {
-    reverse_proxy 192.168.1.111:8686
-}
-
-storage.home {
-    reverse_proxy 192.168.1.111:9000
-}
-
-maloja.home {
-    reverse_proxy 192.168.1.111:42010
-}
+| Ingredient                                    | Amount     |
+| --------------------------------------------- | ---------- |
+| **Brahmi (Bacopa monnieri, 20% bacosides)**   | 100 mg     |
+| **Whole Plant Extract**                       | 100 mg     |
+| **Docosahexaenoic Acid (DHA) Powder (10%)**   | 100 mg     |
+| **Tyrosine Acetyl-L**                         | 100 mg     |
+| **Ginkgo (Ginkgo biloba) Leaf Extract**       | 50 mg      |
+| **L-Theanine**                                | 50 mg      |
+| **Pine Bark Extract (Pinus gerardiana, 95%)** | 50 mg      |
+| **Vitamin B6**                                | 1.9 mg     |
+| **Vitamin B9 (Folate)**                       | 117.64 mcg |
+| **Vitamin B12**                               | 1.00 mcg   |
+|                                               |            |
